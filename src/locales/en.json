@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Dreadmoor Journey",
+      "title": "Your DreadmoorWiki Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Start your first expedition with our beginner guide covering controls, survival basics, and early progression."
+          "description": "Learn the opening survival loop: walk instead of sprint, establish a safe anchor, and secure a reliable light source before you explore."
         },
         {
           "number": "2",
-          "title": "Fishing Basics",
-          "description": "Learn fishing mechanics, bait usage, and the best early fishing spots for reliable resources."
+          "title": "Fishing & Resources",
+          "description": "Turn the water into a steady supply of food, trade goods, and crafting components with the cast, wait, hook, and land loop."
         },
         {
           "number": "3",
-          "title": "Crafting Priorities",
-          "description": "Understand which tools and gear to craft first so you can survive longer and travel further."
+          "title": "Crafting & Upgrades",
+          "description": "Craft only when you need to, protect your last critical materials, and spend early upgrades on range and hull survival."
         },
         {
           "number": "4",
-          "title": "Boat Upgrades",
-          "description": "Upgrade your trawler to reach deeper waters, rarer catches, and tougher regions in Dreadmoor."
+          "title": "Survive the Threats",
+          "description": "Read monster awareness, break line of sight, and retreat before a bad fight costs you an entire expedition."
         }
       ]
     },
@@ -82,57 +82,57 @@
           "badge": "Updated",
           "title": "Active Codes",
           "description": "All working codes with rewards redeem them before they expire.",
-          "href": "/codes/dreadmoor-codes"
+          "href": "/community/dreadmoor-discord"
         },
         {
           "badge": "Popular",
           "title": "Fishing Guide",
           "description": "Fishing mechanics, bait usage, valuable species, and where to catch them.",
-          "href": "/guide/dreadmoor-fishing-guide"
+          "href": "/mechanics/dreadmoor-fishing"
         },
         {
           "badge": "Updated",
           "title": "Crafting Guide",
           "description": "Materials, recipes, survival tools, and equipment upgrades in one database.",
-          "href": "/guide/dreadmoor-crafting-guide"
+          "href": "/guide/dreadmoor-survival-guide"
         },
         {
           "badge": "Popular",
           "title": "Creatures Guide",
           "description": "Dangerous monsters, aquatic threats, and how to survive every encounter.",
-          "href": "/bosses/dreadmoor-creatures-guide"
+          "href": "/mechanics/dreadmoor-monsters"
         },
         {
           "badge": "New",
           "title": "Boat Upgrades",
           "description": "Trawler improvements, ship equipment, and upgrade priorities for longer runs.",
-          "href": "/guide/dreadmoor-boat-upgrades"
+          "href": "/mechanics/dreadmoor-boat"
         },
         {
           "badge": "New",
           "title": "System Requirements",
           "description": "Minimum and recommended PC specs, storage needs, and performance notes.",
-          "href": "/guide/dreadmoor-system-requirements"
+          "href": "/platforms/dreadmoor-steam"
         },
         {
           "badge": "Popular",
           "title": "Release Date",
           "description": "Launch timing, demo availability, platforms, and official announcements.",
-          "href": "/guide/dreadmoor-release-date"
+          "href": "/release/dreadmoor-release-date"
         },
         {
           "badge": "New",
           "title": "Map Guide",
           "description": "Regions, landmarks, and resource locations across the Dreadmoor world.",
-          "href": "/maps/dreadmoor-map-guide"
+          "href": "/mechanics/dreadmoor-map"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is Dreadmoor?",
+      "title": "What Is DreadmoorWiki?",
       "paragraphs": [
-        "Dreadmoor is a dark fantasy survival adventure game on Steam. Players explore a haunted world, fish for rare catches, scavenge resources, craft gear, and upgrade their boat to survive longer expeditions.",
-        "Whether you are learning the core gameplay loop, planning a crafting route, or hunting dangerous creatures, our wiki covers every system with guides, data tables, and step-by-step walkthroughs."
+        "Dreadmoor is a dark fantasy survival adventure on Steam. You sail a fog-bound world, fish its waters, scavenge ruins, craft tools, and upgrade your boat so every expedition reaches farther before the dark closes in.",
+        "DreadmoorWiki gathers that knowledge in one place: beginner routing, fishing mechanics, crafting discipline, boat upgrades, creature behavior, release tracking, and platform details, so new survivors can plan a run instead of losing one."
       ],
       "stats": [
         {
@@ -156,207 +156,249 @@
           "value": "Boat Upgrades"
         },
         {
-          "label": "Store",
-          "value": "Steam Page"
+          "label": "Focus",
+          "value": "New Player Guides"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore DreadmoorWiki Wiki",
-      "description": "Master Dreadmoor with essential survival guides, fishing and crafting databases, creature notes, boat upgrade paths, and release information.",
+      "title": "Explore DreadmoorWiki",
+      "description": "Master Dreadmoor with beginner routing, fishing and crafting databases, creature behavior, boat upgrade paths, release tracking, and platform details.",
       "modules": [
         {
           "order": 1,
-          "name": "Dreadmoor Beginner Guide",
-          "description": "A starter guide covering the core gameplay loop, first expeditions, fishing basics, survival preparation, crafting priorities, and early progression choices.",
+          "name": "DreadmoorWiki Beginner Guide",
+          "description": "DreadmoorWiki's beginner guide covers the core gameplay loop, first expeditions, survival preparation, crafting priorities, and the early progression choices that keep a new run alive.",
           "href": "/guide/dreadmoor-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Learn the core survival loop and basic controls"
+              "detail": "Establish a safe anchor point you can retreat to within your first ten minutes."
             },
             {
               "label": "2",
-              "detail": "Prepare your first expedition and gear"
+              "detail": "Secure a reliable light source before you read terrain, threats, or exits."
             },
             {
               "label": "3",
-              "detail": "Catch your first fish and start crafting"
+              "detail": "Learn your own noise profile to control how far attention travels."
+            },
+            {
+              "label": "4",
+              "detail": "Scout one route out and back instead of wandering into unknown ground."
+            },
+            {
+              "label": "5",
+              "detail": "Bank a small supply reserve before your first long trip away from shelter."
+            },
+            {
+              "label": "6",
+              "detail": "Skip every fight you cannot profit from and keep your progress intact."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Dreadmoor Fishing Guide",
-          "description": "A detailed fishing section explaining fishing mechanics, bait usage, catching strategies, valuable species, and how fishing connects with progression.",
-          "href": "/guide/dreadmoor-fishing-guide",
+          "name": "DreadmoorWiki Fishing Guide",
+          "description": "The DreadmoorWiki fishing guide explains fishing mechanics, bait usage, catching strategies, valuable species, and how catches feed cooking, crafting, and trade.",
+          "href": "/mechanics/dreadmoor-fishing",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "🎣",
-              "detail": "Bait and rod selection for every region"
+              "label": "Spots",
+              "detail": "Fish structure, drop-offs, and wrecks instead of casting into empty flats."
             },
             {
-              "label": "🐟",
-              "detail": "Valuable species and their spawn spots"
+              "label": "Bait",
+              "detail": "Match basic, mid-tier, or premium bait to the water you are actually fishing."
             },
             {
-              "label": "💰",
-              "detail": "Turning catches into steady profit"
+              "label": "Reel",
+              "detail": "Release pressure at tension peaks so a high-value catch does not snap your line."
+            },
+            {
+              "label": "Night",
+              "detail": "Night pools hold rarer species, so carry light and set an exit condition first."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Dreadmoor Crafting Guide",
-          "description": "A crafting and upgrade database covering materials, recipes, survival tools, equipment improvements, and boat-related progression systems.",
-          "href": "/guide/dreadmoor-crafting-guide",
+          "name": "DreadmoorWiki Crafting Guide",
+          "description": "The DreadmoorWiki crafting guide covers materials, recipes, survival tools, equipment improvements, and how scavenged resources turn into stronger gear.",
+          "href": "/guide/dreadmoor-survival-guide",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "🔧",
-              "detail": "Essential survival tools to craft first"
+              "label": "Tools",
+              "detail": "Craft survival tools the moment you need them, not the moment you can."
             },
             {
-              "label": "📦",
-              "detail": "Material sources and scavenging routes"
+              "label": "Repairs",
+              "detail": "Keep repair materials for gear you can replace after a costly loss."
             },
             {
-              "label": "⚙️",
-              "detail": "Equipment upgrades that matter most"
+              "label": "Storage",
+              "detail": "Drop hoarded materials and carry only what your next upgrade needs."
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Never spend your last critical material on an optional upgrade."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Dreadmoor Boat Upgrades",
-          "description": "A module focused on trawler improvements, ship equipment, exploration range, and upgrade priorities for longer, more profitable expeditions.",
-          "href": "/guide/dreadmoor-boat-upgrades",
-          "displayType": "card-list",
+          "name": "DreadmoorWiki Boat Upgrades",
+          "description": "DreadmoorWiki boat upgrades focus on trawler improvements, ship equipment, exploration range, and the upgrade order that protects a long expedition.",
+          "href": "/mechanics/dreadmoor-boat",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "🚤",
-              "detail": "Hull and engine upgrades for range"
+              "label": "S",
+              "detail": "Fuel capacity comes first, because range gates every distant objective."
             },
             {
-              "label": "🧭",
-              "detail": "Navigation tools for deeper waters"
+              "label": "A",
+              "detail": "Hull plating next, so collisions and hostile zones do not end the run."
             },
             {
-              "label": "📈",
-              "detail": "Upgrade order that saves resources"
+              "label": "B",
+              "detail": "Engine upgrades reward pilots who already handle throttle and momentum."
+            },
+            {
+              "label": "C",
+              "detail": "Storage and lighting come later, once range and survival are covered."
             }
           ]
         },
         {
           "order": 5,
-          "name": "Dreadmoor Creatures Guide",
-          "description": "A creature database covering dangerous monsters, aquatic threats, combat encounters, and survival strategies for every region.",
-          "href": "/bosses/dreadmoor-creatures-guide",
+          "name": "DreadmoorWiki Creatures Guide",
+          "description": "The DreadmoorWiki creatures guide covers dangerous monsters, aquatic threats, detection behavior, and the survival tactics that get you home.",
+          "href": "/mechanics/dreadmoor-monsters",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "👹",
-              "detail": "Land monsters and how to fight them"
+              "label": "Patrol",
+              "detail": "Learn patrol routes and move quietly while a creature is still idle."
             },
             {
-              "label": "🦑",
-              "detail": "Aquatic threats and safe sailing tips"
+              "label": "Suspicion",
+              "detail": "Freeze or break line of sight the moment awareness starts to fill."
             },
             {
-              "label": "🛡️",
-              "detail": "Gear and tactics for tough encounters"
+              "label": "Search",
+              "detail": "Leave the area while a creature hunts your last known position."
+            },
+            {
+              "label": "Escape",
+              "detail": "Commit to a planned escape route instead of fighting every threat."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Dreadmoor Release Date",
-          "description": "A release information hub covering launch timing, demo availability, platforms, Steam details, and official announcements.",
-          "href": "/guide/dreadmoor-release-date",
+          "name": "DreadmoorWiki Release Date",
+          "description": "DreadmoorWiki release tracking covers launch timing, demo availability, platforms, Steam details, and the official channels worth watching.",
+          "href": "/release/dreadmoor-release-date",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "📅",
-              "detail": "Launch timing and current status"
+              "label": "Status",
+              "detail": "DreadmoorWiki tracks the official launch window and announcement channels."
             },
             {
-              "label": "🧪",
-              "detail": "Free demo availability on Steam"
+              "label": "Demo",
+              "detail": "A free demo lets you test controls and performance before you buy."
             },
             {
-              "label": "💻",
-              "detail": "Supported platforms and stores"
+              "label": "Steam",
+              "detail": "The Steam store page carries the wishlist option and feature list."
+            },
+            {
+              "label": "Consoles",
+              "detail": "Console and handheld releases are tracked as platform news arrives."
             }
           ]
         },
         {
           "order": 7,
-          "name": "Dreadmoor System Requirements",
-          "description": "A hardware guide listing minimum and recommended PC requirements, storage needs, and performance-related information.",
-          "href": "/guide/dreadmoor-system-requirements",
-          "displayType": "card-list",
+          "name": "DreadmoorWiki System Requirements",
+          "description": "DreadmoorWiki system requirements list the hardware, memory, graphics, and storage details you should check before you buy.",
+          "href": "/platforms/dreadmoor-steam",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "🖥️",
-              "detail": "Minimum PC specifications"
+              "label": "Windows",
+              "detail": "Confirm your exact operating system build is supported before buying."
             },
             {
-              "label": "🚀",
-              "detail": "Recommended specs for smooth play"
+              "label": "8 GB RAM",
+              "detail": "Check total memory, not available memory, against the listed requirement."
             },
             {
-              "label": "💾",
-              "detail": "Storage and performance notes"
+              "label": "GPU Tier",
+              "detail": "Match the listed graphics tier instead of comparing number series."
+            },
+            {
+              "label": "SSD",
+              "detail": "Note both the required space and the drive type before you install."
+            },
+            {
+              "label": "Deck",
+              "detail": "Check the Steam Deck compatibility badge alongside community reports."
             }
           ]
         },
         {
           "order": 8,
-          "name": "Dreadmoor Codes",
-          "description": "A code tracking page for any official redeem codes, promotional rewards, or developer giveaways from official channels.",
-          "href": "/codes/dreadmoor-codes",
+          "name": "DreadmoorWiki Codes",
+          "description": "DreadmoorWiki codes tracks official redeem codes, promotional rewards, and developer giveaways across Steam and community channels.",
+          "href": "/community/dreadmoor-discord",
           "displayType": "code-cards",
           "highlights": [
             {
-              "label": "COMING-SOON",
-              "detail": "No active codes currently available",
-              "badge": "Soon"
+              "label": "No Codes",
+              "detail": "No official Dreadmoor redeem codes have been released yet."
             },
             {
-              "label": "STAY-TUNED",
-              "detail": "Check back soon for new codes",
-              "badge": "Soon"
+              "label": "Watch",
+              "detail": "DreadmoorWiki monitors official Steam and community channels for giveaways."
+            },
+            {
+              "label": "Redeem",
+              "detail": "When codes arrive, redeem them through the in-game or store flow."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Dreadmoor.",
+      "title": "DreadmoorWiki FAQ",
+      "description": "Quick answers about DreadmoorWiki and the Dreadmoor survival loop.",
       "items": [
         {
-          "question": "What is Dreadmoor?",
-          "answer": "Dreadmoor is a dark fantasy survival adventure game on Steam. You explore a haunted world, fish, scavenge resources, craft gear, and upgrade your boat to survive longer expeditions."
+          "question": "What is DreadmoorWiki?",
+          "answer": "DreadmoorWiki is a player-built guide hub for Dreadmoor, covering beginner routing, fishing, crafting, boat upgrades, creatures, release tracking, and platform details."
         },
         {
-          "question": "What platforms is Dreadmoor on?",
-          "answer": "Dreadmoor is available on PC via Steam."
+          "question": "How does DreadmoorWiki help new players?",
+          "answer": "DreadmoorWiki starts with a step-by-step beginner guide, then connects fishing, crafting, and survival topics so your first hours build a safe anchor and a reliable resource reserve."
         },
         {
-          "question": "Is there a Dreadmoor demo?",
-          "answer": "Yes, a free demo is available on Steam alongside the full game, which you can wishlist."
+          "question": "Which DreadmoorWiki guides should I read first?",
+          "answer": "Read the DreadmoorWiki beginner guide first, then the fishing and crafting sections, and check the release page for platform and demo details."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Does DreadmoorWiki cover boat upgrades?",
+          "answer": "Yes. The DreadmoorWiki boat module ranks fuel capacity and hull plating above raw speed, because range and survival carry every long expedition."
         },
         {
-          "question": "Are the guides updated?",
-          "answer": "Guide pages are organized with walkthroughs, crafting data, creature notes, drops, and next steps for progression."
+          "question": "Where does DreadmoorWiki track codes and updates?",
+          "answer": "The DreadmoorWiki codes and release modules follow official Steam and community channels for redeem codes, giveaways, and patch news."
         }
       ]
     },
