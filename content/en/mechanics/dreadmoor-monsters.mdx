@@ -1,0 +1,125 @@
+export const metadata = {
+  title: "Dreadmoor Monsters Explained: Detection, Aggro, and Survival Mechanics",
+  description: "A mechanics-first guide to Dreadmoor monsters: how detection, aggro, threat tiers, and cues work, plus a practical counterplay checklist for longer runs.",
+  category: "mechanics",
+  date: "2026-10-08",
+}
+
+If you have ever been ambushed in Dreadmoor, you already know the truth: Dreadmoor monsters are not set dressing — they are the entire tension engine of the game. Understanding how those creatures detect, pursue, and lose track of you is the fastest way to survive longer runs. This guide breaks the mechanics down in plain language so you can stop reacting and start planning.
+
+Why it matters: most failed runs come down to information gaps, not slow reflexes. Players who learn the Dreadmoor monsters ruleset — what raises awareness, what resets it, and when to commit to an escape — consistently route around danger instead of sprinting into it. The sections below cover detection channels, threat tiers, audio and visual cues, and a repeatable counterplay routine you can use in any session.
+
+## How Dreadmoor Monsters Actually Work: The Core Loop
+
+Community reports describe the creatures in Dreadmoor as behaving like a small state machine. Even if the game never uses that label, the pattern is consistent: each monster cycles through a limited set of behaviors, and the transitions between them are driven by inputs you control — the noise you make, the lines of sight you expose, the light you carry, and how close you get.
+
+Once you can identify which state a creature is in, you can predict what it will do next. That single skill is worth more than any item in your inventory.
+
+| State | What it usually means | Recommended response |
+|---|---|---|
+| Idle / patrol | Following a route with low awareness | Move normally but quietly; memorize the route |
+| Suspicious | Something registered on its senses | Freeze, crouch, or break line of sight immediately |
+| Searching | Actively hunting your last known position | Relocate; do not return to that area yet |
+| Pursuit | Direct chase with full awareness | Commit to a planned escape route |
+| Reset | Awareness decays and the creature disengages | Wait a beat, then move slowly |
+
+The most important takeaway from this table is the gap between **Searching** and **Reset**. Many players assume a monster that stops moving has forgotten them. In practice, a searching creature often lingers near where it lost you. Waiting out the full cycle — rather than a few seconds — is one of the highest-value habits you can build.
+
+### Awareness Is a Meter, Not a Switch
+
+Think of detection as a filling bar rather than an on/off toggle. Small noises tick it up slightly; loud noises and direct sightlines fill it quickly. The bar also drains over time when the creature has no new input. This is why crouch-walking past a patrolling monster usually works, while sprinting past the same monster almost never does.
+
+## Detection Channels: How Dreadmoor Monsters Find You
+
+Every encounter is a puzzle built from a handful of detection channels. Learning which channels are active in a given area tells you which tools to use.
+
+| Detection channel | How it works | Counterplay |
+|---|---|---|
+| Sound | Footsteps, doors, dropped items, and scripted objects raise awareness | Walk or crouch in unknown areas; close doors slowly |
+| Sight | A clear line of sight triggers suspicion fast | Use corners, pillars, and furniture to break LOS |
+| Light | Carried or environmental light draws attention at range | Douse lamps and avoid lit rooms when a creature is near |
+| Proximity | Very short range can trigger regardless of noise or cover | Keep a buffer; do not hug corners blindly |
+| Scripted events | Some objects make noise when interacted with | Learn which interactions are loud before you need them |
+
+Sound is usually the dominant channel, and it is also the one players underestimate most. A dropped item or a slammed door can pull a creature from an adjacent room. If you are unsure whether an area is safe, the quiet option is almost always the correct one.
+
+### Line of Sight and the Corner Rule
+
+Line of sight is binary in most implementations: either the creature can trace an unobstructed path to you, or it cannot. That makes corners, doorframes, and tall props your best friends. The practical rule is simple — never stand in an open space while a creature is in a suspicious state. Put geometry between you and it, then decide whether to move or hold.
+
+## Threat Tiers and the Right Response
+
+Not every Dreadmoor monster deserves the same reaction. Sorting encounters into rough tiers helps you decide in the moment whether to fight, hide, or run.
+
+| Threat tier | Behavior pattern | Best response | Cost of engaging |
+|---|---|---|---|
+| Low | Slow, predictable, easily avoided | Route around it | Low, but wastes time and resources |
+| Medium | Patrols and investigates noise | Avoid or bait with a distraction | Moderate; can escalate |
+| High | Hunts actively and tracks across rooms | Disengage and use terrain | High; often not worth it |
+| Conditional | Appears only under specific circumstances | Reorder objectives or change route | Situational |
+
+### Fight, Hide, or Run?
+
+A useful decision framework, drawn from player experience across survival-horror titles of this type:
+
+- **Fight** only when escape is impossible or when the creature blocks the only route to your objective.
+- **Hide** when the creature is in a search state and you have a credible hiding spot with an exit.
+- **Run** when you have a known route, stamina to spare, and the creature has already locked onto you.
+
+The worst outcome is the half-measure: starting a fight you cannot finish, then trying to run after you have already burned your resources.
+
+## Cues, Escalation, and Map Pressure
+
+Dreadmoor communicates danger through audio and environmental changes more often than through a visible health bar. Training yourself to notice those cues early is what separates a calm run from a panicked one.
+
+| Cue | What it suggests | Immediate action |
+|---|---|---|
+| Music shift or audio sting | Awareness increased | Stop moving and listen |
+| Footstep rhythm changes | Patrol transitioning to search | Break line of sight now |
+| Breathing or vocalization nearby | Creature is very close | Freeze or slip into cover |
+| Environmental changes | Escalation phase is active | Reroute toward your objective |
+| Total silence | Often worse than noise | Assume something is nearby |
+
+### Escalation and Grouping
+
+Many horror designs escalate over time: the longer you stay in an area, the more pressure the game applies. Community reports suggest Dreadmoor follows a similar curve, with monsters becoming more aggressive or more numerous as a run progresses. If you notice the pace picking up, treat it as a signal to finish your current objective and move on rather than to explore further.
+
+Grouping matters too. Two creatures converging on the same room turn a manageable encounter into a trap. When you hear overlapping cues, assume the space is compromised and leave.
+
+## Counterplay Checklist and Common Mistakes
+
+Here is a routine you can run before, during, and after any encounter.
+
+1. **Before entering:** pause at the threshold and listen for a full cycle.
+2. **While moving:** stay low, stay quiet, and keep geometry between you and open sightlines.
+3. **On first cue:** stop. Confirm direction before you commit to a direction.
+4. **On pursuit:** follow a pre-planned route — never improvise a chase.
+5. **After escape:** wait out the search state before returning to the area.
+
+| Common mistake | Why it hurts | Fix |
+|---|---|---|
+| Sprinting everywhere | Maximizes noise and stamina drain | Sprint only in confirmed-safe zones |
+| Re-entering a searched area | The creature may still be searching | Wait a full cycle, then approach slowly |
+| Hoarding consumables | You die with a full inventory | Spend resources to avoid chases |
+| Fighting every encounter | Attrition wears you down | Fight only when escape is impossible |
+| Playing without headphones | You miss early audio warnings | Use headphones; audio is the primary tell |
+
+If you want to verify platform details, patch behavior, or official announcements for the game, the most reliable starting point is the game's official listing on [Steam's storefront](https://store.steampowered.com/), which carries developer-posted updates and system requirements.
+
+## FAQ: Dreadmoor Monsters
+
+**Do Dreadmoor monsters always chase you once they see you?**
+
+No. Most encounters move through stages, and a creature that spots you may only become suspicious at first. If you break line of sight quickly and go quiet, awareness often decays without a full chase. The key is reacting in the first second or two, not after the creature has already closed distance.
+
+**Should you fight monsters or avoid them?**
+
+Avoid them by default. Fighting costs resources, makes noise, and can attract additional creatures. Reserve combat for situations where a monster blocks your only path or where disengaging is genuinely impossible. Players who treat avoidance as the primary strategy tend to survive noticeably longer.
+
+**Does hiding always work?**
+
+Hiding works best when the creature is in a search state and your hiding spot has a second exit. If a monster has already locked onto you in pursuit, hiding in place is risky — it may check the obvious spots. Moving to a new area and letting the search reset is usually safer.
+
+**How do I learn patrol routes quickly?**
+
+Watch from a safe distance for one full cycle before you commit to crossing an area. Note where the creature turns, how long it lingers, and which doorways it passes. Route knowledge compounds: once you know the pattern, you can time your movement instead of gambling on it.

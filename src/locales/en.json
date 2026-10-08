@@ -9,7 +9,15 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "release": "Release",
+    "platforms": "Platforms",
+    "multiplayer": "Multiplayer",
+    "comparison": "Comparison",
+    "community": "Community",
+    "reviews": "Reviews"
   },
   "home": {
     "meta": {
@@ -409,7 +417,38 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Dreadmoor Beginner Guides",
+    "overviewDescription": "Step-by-step Dreadmoor guides covering the opening survival loop, fishing, saving, walkthroughs, and the tips that keep new players alive."
+  },
+  "mechanics": {
+    "overviewTitle": "Dreadmoor Game Mechanics",
+    "overviewDescription": "How Dreadmoor actually plays: fishing, survival, boats, monsters, and map exploration broken down system by system."
+  },
+  "release": {
+    "overviewTitle": "Dreadmoor Release & News",
+    "overviewDescription": "Dreadmoor release details, early access, demo, trailer, and news updates collected in one place."
+  },
+  "platforms": {
+    "overviewTitle": "Dreadmoor Platforms",
+    "overviewDescription": "Where Dreadmoor runs: Steam, PS5, Xbox, Switch, and Steam Deck details, plus buying and compatibility notes."
+  },
+  "multiplayer": {
+    "overviewTitle": "Dreadmoor Multiplayer",
+    "overviewDescription": "Dreadmoor multiplayer, co-op, and crossplay explained so you can plan a voyage that a full squad can survive."
+  },
+  "comparison": {
+    "overviewTitle": "Dreadmoor Comparisons",
+    "overviewDescription": "Dreadmoor compared with Dredge and similar games, with side-by-side looks at tone, loop, and progression."
+  },
+  "community": {
+    "overviewTitle": "Dreadmoor Community",
+    "overviewDescription": "Dreadmoor Reddit and Discord hubs plus the community spaces where players share routes, tips, and patch talk."
+  },
+  "reviews": {
+    "overviewTitle": "Dreadmoor Reviews",
+    "overviewDescription": "Dreadmoor reviews and gameplay impressions covering atmosphere, difficulty, content depth, and performance."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -440,10 +479,10 @@
     "officialYoutube": "Official Trailer",
     "vvBuilder": "Dreadmoor Loadout Planner",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "mechanicsGuides": "Game Mechanics",
+    "multiplayerGuides": "Multiplayer",
+    "communityGuides": "Community"
   }
 }

@@ -1,0 +1,125 @@
+export const metadata = {
+  title: "Monstruos de Dreadmoor explicados: detección, agresividad y mecánicas de supervivencia",
+  description: "Una guía centrada en las mecánicas de los monstruos de Dreadmoor: cómo funcionan la detección, la agresividad, los niveles de amenaza y las señales, además de una lista práctica de contramedidas para partidas más largas.",
+  category: "mechanics",
+  date: "2026-10-08",
+}
+
+Si alguna vez te han emboscado en Dreadmoor, ya conoces la verdad: los monstruos de Dreadmoor no son simple decoración — son todo el motor de tensión del juego. Entender cómo esas criaturas te detectan, te persiguen y pierden tu rastro es la forma más rápida de sobrevivir a partidas más largas. Esta guía desglosa las mecánicas en lenguaje sencillo para que dejes de reaccionar y empieces a planificar.
+
+Por qué importa: la mayoría de las partidas fallidas se reducen a lagunas de información, no a reflejos lentos. Los jugadores que aprenden el conjunto de reglas de los monstruos de Dreadmoor — qué aumenta la alerta, qué la restablece y cuándo comprometerse con una huida — rodean el peligro de forma consistente en lugar de correr directo hacia él. Las secciones siguientes cubren los canales de detección, los niveles de amenaza, las señales de audio y visuales, y una rutina repetible de contramedidas que puedes usar en cualquier sesión.
+
+## Cómo funcionan realmente los monstruos de Dreadmoor: el bucle central
+
+Los informes de la comunidad describen a las criaturas de Dreadmoor como si funcionaran como una pequeña máquina de estados. Aunque el juego nunca use esa etiqueta, el patrón es consistente: cada monstruo pasa por un conjunto limitado de comportamientos, y las transiciones entre ellos están impulsadas por entradas que tú controlas — el ruido que haces, las líneas de visión que expones, la luz que llevas y lo cerca que te acercas.
+
+Una vez que puedes identificar en qué estado se encuentra una criatura, puedes predecir qué hará después. Esa única habilidad vale más que cualquier objeto de tu inventario.
+
+| Estado | Qué suele significar | Respuesta recomendada |
+|---|---|---|
+| Inactivo / patrulla | Sigue una ruta con baja alerta | Muévete con normalidad pero en silencio; memoriza la ruta |
+| Sospechoso | Algo se registró en sus sentidos | Congélate, agáchate o rompe la línea de visión de inmediato |
+| Buscando | Caza activamente tu última posición conocida | Reubícate; no vuelvas a esa zona todavía |
+| Persecución | Persecución directa con alerta máxima | Comprométete con una ruta de escape planificada |
+| Reinicio | La alerta decae y la criatura se desengancha | Espera un momento y luego muévete despacio |
+
+La conclusión más importante de esta tabla es la brecha entre **Buscando** y **Reinicio**. Muchos jugadores asumen que un monstruo que deja de moverse los ha olvidado. En la práctica, una criatura que está buscando suele quedarse cerca de donde te perdió. Esperar a que termine el ciclo completo — en lugar de unos pocos segundos — es uno de los hábitos más valiosos que puedes desarrollar.
+
+### La alerta es un medidor, no un interruptor
+
+Piensa en la detección como una barra que se llena, no como un interruptor de encendido/apagado. Los ruidos pequeños la suben un poco; los ruidos fuertes y las líneas de visión directas la llenan rápido. La barra también se vacía con el tiempo cuando la criatura no recibe nuevas entradas. Por eso caminar agachado junto a un monstruo en patrulla suele funcionar, mientras que esprintar junto al mismo monstruo casi nunca lo hace.
+
+## Canales de detección: cómo te encuentran los monstruos de Dreadmoor
+
+Cada encuentro es un puzle construido a partir de unos pocos canales de detección. Aprender qué canales están activos en una zona determinada te dice qué herramientas usar.
+
+| Canal de detección | Cómo funciona | Contramedidas |
+|---|---|---|
+| Sonido | Los pasos, las puertas, los objetos caídos y los objetos programados aumentan la alerta | Camina o agáchate en zonas desconocidas; cierra las puertas despacio |
+| Vista | Una línea de visión clara dispara la sospecha rápidamente | Usa esquinas, pilares y muebles para romper la LOS |
+| Luz | La luz que llevas o la ambiental atrae la atención a distancia | Apaga las lámparas y evita las salas iluminadas cuando una criatura esté cerca |
+| Proximidad | El rango muy corto puede activarse sin importar el ruido o la cobertura | Mantén un margen; no te pegues a las esquinas a ciegas |
+| Eventos programados | Algunos objetos hacen ruido al interactuar con ellos | Aprende qué interacciones son ruidosas antes de necesitarlas |
+
+El sonido suele ser el canal dominante, y también es el que los jugadores subestiman más. Un objeto que se cae o una puerta que se cierra de golpe pueden atraer a una criatura desde una sala contigua. Si no estás seguro de que una zona sea segura, la opción silenciosa casi siempre es la correcta.
+
+### Línea de visión y la regla de la esquina
+
+La línea de visión es binaria en la mayoría de las implementaciones: o la criatura puede trazar un camino sin obstáculos hasta ti, o no puede. Eso convierte las esquinas, los marcos de las puertas y los objetos altos en tus mejores amigos. La regla práctica es simple: nunca te quedes en un espacio abierto mientras una criatura está en estado sospechoso. Pon geometría entre tú y ella, y luego decide si moverte o esperar.
+
+## Niveles de amenaza y la respuesta correcta
+
+No todos los monstruos de Dreadmoor merecen la misma reacción. Clasificar los encuentros en niveles aproximados te ayuda a decidir en el momento si luchar, esconderte o huir.
+
+| Nivel de amenaza | Patrón de comportamiento | Mejor respuesta | Coste de enfrentarse |
+|---|---|---|---|
+| Bajo | Lento, predecible, fácil de evitar | Rodéalo | Bajo, pero desperdicia tiempo y recursos |
+| Medio | Patrulla e investiga el ruido | Evítalo o distráelo con un señuelo | Moderado; puede escalar |
+| Alto | Caza activamente y rastrea entre salas | Desengánchate y usa el terreno | Alto; a menudo no vale la pena |
+| Condicional | Aparece solo bajo circunstancias específicas | Reordena los objetivos o cambia de ruta | Situacional |
+
+### ¿Luchar, esconderse o huir?
+
+Un marco de decisión útil, extraído de la experiencia de jugadores en títulos de terror y supervivencia de este tipo:
+
+- **Lucha** solo cuando escapar sea imposible o cuando la criatura bloquee la única ruta hacia tu objetivo.
+- **Escóndete** cuando la criatura esté en estado de búsqueda y tengas un escondite creíble con salida.
+- **Huye** cuando tengas una ruta conocida, resistencia de sobra y la criatura ya se haya fijado en ti.
+
+El peor resultado es quedarse a medias: empezar una pelea que no puedes terminar y luego intentar huir después de haber quemado ya tus recursos.
+
+## Señales, escalada y presión del mapa
+
+Dreadmoor comunica el peligro mediante audio y cambios ambientales más a menudo que mediante una barra de vida visible. Entrenarte para notar esas señales a tiempo es lo que separa una partida tranquila de una de pánico.
+
+| Señal | Qué sugiere | Acción inmediata |
+|---|---|---|
+| Cambio de música o golpe de audio | La alerta aumentó | Deja de moverte y escucha |
+| Cambios en el ritmo de los pasos | La patrulla pasa a búsqueda | Rompe la línea de visión ahora |
+| Respiración o vocalización cerca | La criatura está muy cerca | Congélate o escóndete en una cobertura |
+| Cambios ambientales | La fase de escalada está activa | Redirígete hacia tu objetivo |
+| Silencio total | A menudo es peor que el ruido | Asume que hay algo cerca |
+
+### Escalada y agrupamiento
+
+Muchos diseños de terror escalan con el tiempo: cuanto más tiempo permaneces en una zona, más presión aplica el juego. Los informes de la comunidad sugieren que Dreadmoor sigue una curva similar, con monstruos que se vuelven más agresivos o más numerosos a medida que avanza una partida. Si notas que el ritmo aumenta, tómalo como una señal para terminar tu objetivo actual y seguir adelante en lugar de explorar más.
+
+El agrupamiento también importa. Dos criaturas convergiendo en la misma sala convierten un encuentro manejable en una trampa. Cuando oigas señales superpuestas, asume que el espacio está comprometido y vete.
+
+## Lista de contramedidas y errores comunes
+
+Aquí tienes una rutina que puedes seguir antes, durante y después de cualquier encuentro.
+
+1. **Antes de entrar:** haz una pausa en el umbral y escucha durante un ciclo completo.
+2. **Mientras te mueves:** mantente agachado, en silencio y con geometría entre tú y las líneas de visión abiertas.
+3. **Ante la primera señal:** detente. Confirma la dirección antes de comprometerte con una dirección.
+4. **Durante una persecución:** sigue una ruta planificada de antemano; nunca improvises una huida.
+5. **Después de escapar:** espera a que termine el estado de búsqueda antes de volver a la zona.
+
+| Error común | Por qué perjudica | Solución |
+|---|---|---|
+| Esprintar por todas partes | Maximiza el ruido y el gasto de resistencia | Esprinta solo en zonas confirmadas como seguras |
+| Volver a entrar en una zona registrada | La criatura puede seguir buscando | Espera un ciclo completo y luego acércate despacio |
+| Acumular consumibles | Mueres con el inventario lleno | Gasta recursos para evitar persecuciones |
+| Luchar en cada encuentro | El desgaste te agota | Lucha solo cuando escapar sea imposible |
+| Jugar sin auriculares | Te pierdes los avisos de audio tempranos | Usa auriculares; el audio es la señal principal |
+
+Si quieres verificar detalles de la plataforma, el comportamiento de los parches o los anuncios oficiales del juego, el punto de partida más fiable es la ficha oficial del juego en [la tienda de Steam](https://store.steampowered.com/), que incluye actualizaciones publicadas por los desarrolladores y requisitos del sistema.
+
+## Preguntas frecuentes: monstruos de Dreadmoor
+
+**¿Los monstruos de Dreadmoor siempre te persiguen una vez que te ven?**
+
+No. La mayoría de los encuentros pasan por etapas, y una criatura que te ve puede volverse solo sospechosa al principio. Si rompes la línea de visión rápidamente y guardas silencio, la alerta a menudo decae sin una persecución completa. La clave es reaccionar en el primer segundo o dos, no después de que la criatura ya haya acortado la distancia.
+
+**¿Deberías luchar contra los monstruos o evitarlos?**
+
+Evítalos por defecto. Luchar cuesta recursos, hace ruido y puede atraer a más criaturas. Reserva el combate para situaciones en las que un monstruo bloquee tu único camino o en las que desengancharse sea genuinamente imposible. Los jugadores que tratan la evitación como estrategia principal tienden a sobrevivir notablemente más tiempo.
+
+**¿Esconderse siempre funciona?**
+
+Esconderse funciona mejor cuando la criatura está en estado de búsqueda y tu escondite tiene una segunda salida. Si un monstruo ya se ha fijado en ti durante una persecución, esconderte en el sitio es arriesgado: puede revisar los lugares obvios. Moverse a una zona nueva y dejar que la búsqueda se reinicie suele ser más seguro.
+
+**¿Cómo aprendo rápido las rutas de patrulla?**
+
+Observa desde una distancia segura durante un ciclo completo antes de comprometerte a cruzar una zona. Fíjate en dónde gira la criatura, cuánto tiempo se queda y por qué puertas pasa. El conocimiento de las rutas se acumula: una vez que conoces el patrón, puedes sincronizar tus movimientos en lugar de apostar por ellos.

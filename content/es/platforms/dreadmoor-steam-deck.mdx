@@ -1,0 +1,139 @@
+export const metadata = {
+  title: "Guía de Dreadmoor en Steam Deck: ajustes, compatibilidad y consejos de rendimiento",
+  description: "Una guía práctica de Dreadmoor en Steam Deck que cubre compatibilidad, mejores ajustes, configuraciones de controles, duración de batería y soluciones para jugar donde sea.",
+  category: "platforms",
+  date: "2026-10-08",
+}
+
+Si has estado buscando una respuesta clara sobre la compatibilidad de **Dreadmoor en Steam Deck**, no estás solo. La pregunta sobre Dreadmoor en Steam Deck aparece en foros, servidores de Discord y secciones de comentarios por una razón muy simple: es el tipo de lanzamiento para PC que la gente quiere seguir jugando después de levantarse del escritorio, y la consola portátil de Valve no siempre te da un simple sí o no. Esta guía cubre lo que realmente importa: el estado de compatibilidad, los ajustes que mantienen una tasa de fotogramas estable, las configuraciones de controles, los compromisos de batería y las soluciones que consiguen que una instalación problemática funcione.
+
+## Qué esperar de la compatibilidad de Dreadmoor en Steam Deck
+
+La Steam Deck ejecuta SteamOS, un sistema operativo basado en Linux, y reproduce la mayoría de los juegos de Windows mediante una capa de traducción llamada Proton. Eso significa que la compatibilidad rara vez es una situación binaria de "funciona" o "no funciona". Algunos títulos se inician perfectamente al primer intento, otros necesitan una versión específica de Proton y unos pocos requieren un arreglo creado por la comunidad antes de comportarse bien.
+
+La forma más rápida de ajustar expectativas es revisar la insignia de compatibilidad en la página de la tienda de Steam del juego. Valve publica esas insignias de forma pública, y son la señal más fiable que tendrás antes de comprar.
+
+| Insignia | Qué significa | Qué deberías hacer |
+|---|---|---|
+| Verified | Funciona bien con los controles predeterminados y texto legible | Instalar y jugar; solo ajustes menores |
+| Playable | Funciona, pero puede necesitar entrada manual o cambios en los ajustes | Espera tener que crear una configuración personalizada |
+| Unsupported | Actualmente no funciona correctamente | Revisa los informes de la comunidad antes de comprar |
+| Unknown | Valve aún no ha terminado las pruebas | Busca publicaciones recientes sobre la experiencia de los jugadores |
+
+Algunas notas prácticas para tu primer inicio:
+
+- **Espera un primer arranque más largo.** La compilación de shaders y la configuración de Proton pueden añadir uno o dos minutos la primera vez.
+- **No entres en pánico ante una pantalla negra.** Dale de 30 a 60 segundos antes de forzar el cierre.
+- **Comprueba la fecha de cualquier consejo que leas.** SteamOS y Proton se actualizan con frecuencia, así que una solución de hace dos años puede que ya no sirva.
+
+Si la insignia falta o está desactualizada, los informes de la comunidad son tu siguiente mejor fuente. Los hilos sobre la experiencia de los jugadores suelen mencionar qué versión de Proton funcionó y si la suspensión/reanudación se comportó bien.
+
+## Mejores ajustes de Dreadmoor en Steam Deck para una tasa de fotogramas estable
+
+El error más grande que cometen los nuevos jugadores de consolas portátiles es dejar intactos los ajustes pensados para escritorio. La pantalla de la Steam Deck es de 1280×800, una fracción de un monitor típico de 1080p o 1440p. Usar los mismos preajustes que utilizas en un escritorio desperdicia rendimiento que podrías invertir en la consistencia de los fotogramas.
+
+Empieza con la tabla de abajo y luego ajusta un parámetro a la vez.
+
+| Ajuste | Punto de partida | Por qué ayuda |
+|---|---|---|
+| Resolución | 1280×800 (nativa) | Evita artefactos innecesarios de reescalado |
+| Límite de fotogramas | 40 FPS | Más fluido que 30, mucho más barato que 60 |
+| Frecuencia de refresco | 40 Hz | Coincide con el límite y reduce problemas de ritmo de fotogramas |
+| V-Sync | Activado | Evita el tearing en la pantalla integrada |
+| Sombras | Medio o Bajo | Suele ser el mayor coste de GPU |
+| Texturas | Medio | La memoria se comparte con el sistema |
+| Antialiasing | FXAA o Desactivado | Más barato que un AA pesado de posprocesado |
+| FSR / reescalado | Calidad, si está disponible | Recupera fotogramas sin apenas desenfoque |
+
+Una palabra sobre los límites de fotogramas: 30 FPS es el respaldo seguro, 40 FPS es el punto óptimo en el que se quedan la mayoría de los jugadores, y 60 FPS es alcanzable pero cuesta batería y ruido de ventilador. El control deslizante de frecuencia de refresco en el Menú de Acceso Rápido te permite fijar 40 Hz tanto en los modelos LCD como OLED, lo que mantiene un ritmo de fotogramas ajustado.
+
+Dos consejos más que rinden por encima de su peso:
+
+1. **Limita el TDP, no lo pongas al máximo.** Un presupuesto térmico más bajo suele producir un tiempo de fotograma más consistente que un chip sin restricciones que acaba estrangulándose.
+2. **Desactiva la superposición de rendimiento en pantalla cuando termines de ajustar.** Consume un poco de recursos y distrae del juego.
+
+## Proton y soluciones de inicio: solución de problemas de Dreadmoor en Steam Deck
+
+Cuando un juego se niega a cooperar, el problema casi siempre está relacionado con Proton y no con el hardware. La buena noticia es que la mayoría de las soluciones tardan menos de dos minutos.
+
+**Cómo forzar una versión de Proton:**
+
+1. Abre el juego en tu Biblioteca de Steam.
+2. Selecciona el icono de engranaje y elige **Propiedades**.
+3. Ve a la pestaña **Compatibilidad**.
+4. Marca **Forzar el uso de una herramienta específica de compatibilidad de Steam Play**.
+5. Elige una versión de Proton en el menú desplegable y vuelve a iniciar.
+
+Valve mantiene una [página oficial del programa Steam Deck Verified](https://www.steamdeck.com/en/verified) que explica el sistema de insignias en detalle, y las bases de datos de la comunidad registran qué versiones de Proton funcionan para cada título.
+
+| Síntoma | Causa probable | Solución a probar |
+|---|---|---|
+| El juego no se inicia | Incompatibilidad de Proton | Forzar una versión diferente de Proton |
+| Pantalla negra tras el logo | Problema con el códec de cinemáticas | Probar Proton Experimental |
+| El mando no responde | Conflicto con Steam Input | Desactivar Steam Input y volver a activarlo |
+| Tirones tras reanudar | Fallo de suspensión/reanudación | Cerrar por completo y reiniciar |
+| Audio con chasquidos | Desajuste de la frecuencia de muestreo | Bajar la calidad de audio en el juego |
+| Conflicto de guardado en la nube | Dos dispositivos desincronizados | Elegir manualmente el archivo más reciente |
+
+La suspensión y reanudación merece una mención especial. Es una de las mejores funciones de la Steam Deck, pero unos cuantos juegos la manejan mal. Si notas un rendimiento degradado después de despertar el dispositivo, un reinicio completo suele restaurar el comportamiento normal.
+
+## Controles: crear una configuración de Dreadmoor para Steam Deck
+
+La compatibilidad predeterminada con mando suele estar bien, pero la Steam Deck te da herramientas que un mando estándar no puede igualar: dos trackpads, cuatro botones traseros y soporte completo de giroscopio. Mapearlos bien puede convertir un esquema de control incómodo en algo que se siente nativo.
+
+| Acción | Asignación sugerida | Notas |
+|---|---|---|
+| Cámara | Trackpad derecho | Ideal para apuntar con precisión |
+| Movimiento | Stick izquierdo | Mantenlo estándar |
+| Esprintar | Botón trasero L4 | Evita tensión en los pulgares |
+| Interactuar | Botón trasero R4 | Mantiene las manos en los sticks |
+| Menú rápido | Clic del trackpad derecho | Más rápido que un menú radial |
+| Apuntado fino | Giroscopio (siempre activo) | Actívalo solo al apuntar |
+| Captura de pantalla | Steam + R1 | Útil para guías |
+
+Consejos para una configuración que de verdad se mantenga:
+
+- **Prueba primero en una zona segura.** No reasignes botones en mitad de un combate.
+- **Usa perfiles por juego.** Steam guarda las configuraciones por título automáticamente.
+- **Comparte y toma prestado.** Las configuraciones de la comunidad son un punto de partida legítimo; solo verifica tú mismo las asignaciones.
+- **Ajusta la sensibilidad del giroscopio en pasos pequeños.** La mayoría de los jugadores se pasa en el primer intento.
+
+Si juegas con la consola acoplada y un mando Bluetooth, recuerda que la configuración que creaste para el modo portátil sigue aplicándose. Puede que quieras un segundo perfil para la pantalla más grande.
+
+## Batería, almacenamiento y jugar a Dreadmoor en Steam Deck sin el dock
+
+La duración de la batería es el compromiso del que nadie escapa. Los juegos exigentes pueden agotar una Steam Deck rápidamente, y la diferencia entre un perfil ajustado y uno sin ajustar es notable. La tabla de abajo muestra cómo se sienten los principales perfiles en la práctica.
+
+| Perfil | TDP | Límite de fotogramas | Sensación de batería | Ruido del ventilador |
+|---|---|---|---|---|
+| Ahorro de batería | Bajo | 30 FPS | Sesiones más largas | Casi silencioso |
+| Equilibrado | Medio | 40 FPS | Moderada | Silencioso |
+| Rendimiento | Alto | 60 FPS | Sesiones más cortas | Audible |
+| Acoplado | Sin límite | Limitado por la pantalla | Enchufado | El más ruidoso |
+
+Hábitos prácticos que prolongan el tiempo de juego:
+
+- **Baja el brillo de la pantalla.** La pantalla es uno de los mayores consumos de energía del dispositivo.
+- **Activa el modo avión cuando estés sin conexión.** Las radios Wi-Fi consumen energía de forma silenciosa.
+- **Suspende en lugar de cerrar.** Es más rápido y consume muy poca batería.
+- **Mantén las rejillas de ventilación despejadas.** Una funda o una manta pueden llevar el chip al estrangulamiento térmico.
+
+Sobre el almacenamiento, los juegos modernos son grandes, y las cachés de shaders añaden sobrecarga por encima del tamaño de instalación. Una tarjeta microSD de alta velocidad con clasificación A2/U3 es un hogar perfectamente razonable para un título para un jugador, aunque el almacenamiento interno carga más rápido. Si alternas varios juegos grandes, planifica tu biblioteca según el espacio que realmente tengas.
+
+El modelo OLED generalmente dura más que el modelo LCD original gracias a una batería más grande y una pantalla más eficiente, así que los jugadores con el hardware más nuevo pueden exigir un poco más a los ajustes antes de echar mano del cargador.
+
+## Preguntas frecuentes sobre Dreadmoor en Steam Deck
+
+**¿Dreadmoor es compatible con Steam Deck nada más sacarlo de la caja?**
+Eso depende enteramente de la insignia de compatibilidad actual en su página de la tienda de Steam. Si muestra Verified, puedes instalarlo y jugar con los controles predeterminados. Si muestra Playable o Unknown, espera pasar unos minutos en el menú de ajustes y posiblemente forzar una versión de Proton.
+
+**¿Con qué ajustes debería empezar?**
+Comienza con la resolución nativa de 1280×800, un límite de 40 FPS y una frecuencia de refresco de 40 Hz. Baja primero las sombras y el antialiasing si el rendimiento decae, ya que suelen costar lo máximo a cambio de lo mínimo en lo visual.
+
+**¿Por qué se producen tirones en el juego después de despertar el dispositivo?**
+La suspensión y reanudación es cómoda, pero no es perfecta. Los informes de la comunidad sugieren que cerrar y volver a iniciar por completo restaura el ritmo normal de fotogramas cuando una sesión reanudada se siente lenta.
+
+**¿Puedo jugar con teclado y ratón?**
+Sí. Conecta un hub USB-C o usa periféricos Bluetooth, y la Steam Deck se comporta como un pequeño PC de escritorio. Muchos jugadores mantienen un perfil portátil y un perfil acoplado para no tener que reasignar nada a mitad de sesión.
+
+Conseguir que tu configuración de Dreadmoor en Steam Deck sea la correcta se reduce a tres hábitos: revisa la insignia de compatibilidad antes de comprar, limita tu tasa de fotogramas en lugar de perseguir los ajustes máximos, y ten en mente una alternativa con Proton cuando algo se niegue a iniciarse. Haz esas tres cosas y la consola portátil se convierte en una de las formas más cómodas de jugar.

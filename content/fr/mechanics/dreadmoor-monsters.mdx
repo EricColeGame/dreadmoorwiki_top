@@ -1,0 +1,125 @@
+export const metadata = {
+  title: "Les monstres de Dreadmoor expliqués : détection, aggro et mécaniques de survie",
+  description: "Un guide axé sur les mécaniques des monstres de Dreadmoor : fonctionnement de la détection, de l'aggro, des paliers de menace et des indices, avec une checklist pratique de contre-jeu pour survivre plus longtemps.",
+  category: "mechanics",
+  date: "2026-10-08",
+}
+
+Si vous avez déjà été pris en embuscade dans Dreadmoor, vous connaissez déjà la vérité : les monstres de Dreadmoor ne sont pas de simples éléments décoratifs — ils constituent tout le moteur de tension du jeu. Comprendre comment ces créatures vous détectent, vous poursuivent et vous perdent de vue est le moyen le plus rapide de survivre plus longtemps. Ce guide décortique les mécaniques en langage clair pour que vous puissiez arrêter de réagir et commencer à planifier.
+
+Pourquoi c'est important : la plupart des runs ratées tiennent à des lacunes d'information, pas à des réflexes lents. Les joueurs qui apprennent les règles des monstres de Dreadmoor — ce qui fait monter la conscience, ce qui la réinitialise, et quand s'engager dans une fuite — contournent systématiquement le danger au lieu de foncer droit dedans. Les sections ci-dessous couvrent les canaux de détection, les paliers de menace, les indices audio et visuels, ainsi qu'une routine de contre-jeu reproductible utilisable dans n'importe quelle session.
+
+## Comment fonctionnent réellement les monstres de Dreadmoor : la boucle principale
+
+Les rapports de la communauté décrivent les créatures de Dreadmoor comme fonctionnant à la manière d'une petite machine à états. Même si le jeu n'emploie jamais ce terme, le schéma est constant : chaque monstre alterne entre un ensemble limité de comportements, et les transitions entre eux sont déclenchées par des paramètres que vous contrôlez — le bruit que vous faites, les lignes de vue que vous exposez, la lumière que vous transportez et la distance à laquelle vous vous approchez.
+
+Une fois que vous savez identifier l'état dans lequel se trouve une créature, vous pouvez prédire ce qu'elle fera ensuite. Cette seule compétence vaut plus que n'importe quel objet de votre inventaire.
+
+| État | Ce que cela signifie généralement | Réponse recommandée |
+|---|---|---|
+| Inactif / patrouille | Suit un itinéraire avec une conscience faible | Se déplacer normalement mais discrètement ; mémoriser l'itinéraire |
+| Suspicieux | Quelque chose a été enregistré par ses sens | Se figer, s'accroupir ou rompre immédiatement la ligne de vue |
+| En recherche | Traque activement votre dernière position connue | Se déplacer ; ne pas revenir dans cette zone pour l'instant |
+| Poursuite | Chasse directe avec pleine conscience | S'engager dans un itinéraire de fuite planifié |
+| Réinitialisation | La conscience s'estompe et la créature se désengage | Attendre un instant, puis se déplacer lentement |
+
+L'enseignement le plus important de ce tableau est l'écart entre **En recherche** et **Réinitialisation**. Beaucoup de joueurs supposent qu'un monstre qui s'arrête de bouger les a oubliés. En pratique, une créature en recherche s'attarde souvent près de l'endroit où elle vous a perdu. Attendre la fin du cycle complet — plutôt que quelques secondes — est l'une des habitudes les plus précieuses que vous puissiez développer.
+
+### La conscience est une jauge, pas un interrupteur
+
+Considérez la détection comme une barre qui se remplit plutôt que comme un interrupteur marche/arrêt. Les petits bruits la font monter légèrement ; les bruits forts et les lignes de vue directes la remplissent rapidement. La barre se vide également avec le temps lorsque la créature ne reçoit aucune nouvelle stimulation. C'est pourquoi avancer accroupi devant un monstre en patrouille fonctionne généralement, alors que sprinter devant ce même monstre n'y parvient presque jamais.
+
+## Les canaux de détection : comment les monstres de Dreadmoor vous trouvent
+
+Chaque rencontre est un puzzle composé d'une poignée de canaux de détection. Savoir quels canaux sont actifs dans une zone donnée vous indique quels outils utiliser.
+
+| Canal de détection | Fonctionnement | Contre-jeu |
+|---|---|---|
+| Son | Les pas, les portes, les objets lâchés et les objets scriptés font monter la conscience | Marcher ou s'accroupir dans les zones inconnues ; fermer les portes lentement |
+| Vue | Une ligne de vue dégagée déclenche rapidement la suspicion | Utiliser les angles, les piliers et les meubles pour rompre la ligne de vue |
+| Lumière | La lumière portée ou ambiante attire l'attention à distance | Éteindre les lampes et éviter les pièces éclairées quand une créature est proche |
+| Proximité | Une portée très courte peut déclencher quoi qu'il arrive, bruit ou couvert | Garder une marge ; ne pas coller les angles à l'aveugle |
+| Événements scriptés | Certains objets font du bruit lorsqu'on interagit avec eux | Apprendre quelles interactions sont bruyantes avant d'en avoir besoin |
+
+Le son est généralement le canal dominant, et c'est aussi celui que les joueurs sous-estiment le plus. Un objet lâché ou une porte claquée peut attirer une créature depuis une pièce adjacente. Si vous ne savez pas si une zone est sûre, l'option silencieuse est presque toujours la bonne.
+
+### Ligne de vue et règle de l'angle
+
+La ligne de vue est binaire dans la plupart des implémentations : soit la créature peut tracer un chemin dégagé jusqu'à vous, soit elle ne le peut pas. Cela fait des angles, des encadrements de portes et des objets hauts vos meilleurs alliés. La règle pratique est simple — ne jamais rester dans un espace ouvert tant qu'une créature est dans un état de suspicion. Placez de la géométrie entre vous et elle, puis décidez si vous bougez ou si vous restez sur place.
+
+## Paliers de menace et bonne réponse
+
+Tous les monstres de Dreadmoor ne méritent pas la même réaction. Classer les rencontres en paliers approximatifs vous aide à décider sur le moment s'il faut combattre, se cacher ou fuir.
+
+| Palier de menace | Schéma comportemental | Meilleure réponse | Coût de l'engagement |
+|---|---|---|---|
+| Faible | Lent, prévisible, facile à éviter | Contourner | Faible, mais perte de temps et de ressources |
+| Moyen | Patrouille et enquête sur le bruit | Éviter ou attirer avec une distraction | Modéré ; peut s'intensifier |
+| Élevé | Chasse activement et traque à travers les pièces | Se désengager et utiliser le terrain | Élevé ; souvent pas rentable |
+| Conditionnel | N'apparaît que dans des circonstances spécifiques | Réorganiser les objectifs ou changer d'itinéraire | Variable |
+
+### Combattre, se cacher ou fuir ?
+
+Un cadre de décision utile, tiré de l'expérience des joueurs sur les titres de survival-horror de ce type :
+
+- **Combattre** uniquement quand la fuite est impossible ou quand la créature bloque le seul chemin vers votre objectif.
+- **Se cacher** quand la créature est en état de recherche et que vous disposez d'une cachette crédible avec une sortie.
+- **Fuir** quand vous connaissez un itinéraire, que vous avez de l'endurance à revendre et que la créature vous a déjà repéré.
+
+Le pire résultat est la demi-mesure : engager un combat que vous ne pouvez pas terminer, puis tenter de fuir après avoir déjà brûlé vos ressources.
+
+## Indices, escalade et pression sur la carte
+
+Dreadmoor communique le danger par l'audio et les changements environnementaux plus souvent que par une barre de vie visible. S'entraîner à repérer ces indices tôt est ce qui distingue une run sereine d'une run paniquée.
+
+| Indice | Ce qu'il suggère | Action immédiate |
+|---|---|---|
+| Changement de musique ou stinger audio | La conscience a augmenté | Arrêter de bouger et écouter |
+| Changement de rythme des pas | La patrouille passe en recherche | Rompre la ligne de vue maintenant |
+| Respiration ou vocalisation à proximité | La créature est très proche | Se figer ou se glisser à couvert |
+| Changements environnementaux | La phase d'escalade est active | Rejoindre votre objectif par un autre chemin |
+| Silence total | Souvent pire que du bruit | Partir du principe que quelque chose est proche |
+
+### Escalade et regroupement
+
+Beaucoup de jeux d'horreur montent en intensité avec le temps : plus vous restez dans une zone, plus la pression exercée par le jeu augmente. Les rapports de la communauté suggèrent que Dreadmoor suit une courbe similaire, les monstres devenant plus agressifs ou plus nombreux à mesure qu'une run progresse. Si vous remarquez que le rythme s'accélère, considérez cela comme un signal pour terminer votre objectif actuel et passer à autre chose plutôt que d'explorer davantage.
+
+Le regroupement compte aussi. Deux créatures convergeant vers la même pièce transforment une rencontre gérable en piège. Quand vous entendez des indices qui se chevauchent, partez du principe que l'espace est compromis et partez.
+
+## Checklist de contre-jeu et erreurs courantes
+
+Voici une routine que vous pouvez appliquer avant, pendant et après n'importe quelle rencontre.
+
+1. **Avant d'entrer :** marquez une pause au seuil et écoutez pendant un cycle complet.
+2. **En déplacement :** restez bas, restez silencieux et gardez de la géométrie entre vous et les lignes de vue dégagées.
+3. **Au premier indice :** arrêtez-vous. Confirmez la direction avant de vous engager dans une direction.
+4. **En cas de poursuite :** suivez un itinéraire planifié à l'avance — n'improvisez jamais une course-poursuite.
+5. **Après la fuite :** attendez la fin de l'état de recherche avant de retourner dans la zone.
+
+| Erreur courante | Pourquoi c'est pénalisant | Correction |
+|---|---|---|
+| Sprinter partout | Maximise le bruit et la perte d'endurance | Sprinter uniquement dans les zones confirmées sûres |
+| Revenir dans une zone fouillée | La créature peut encore être en recherche | Attendre un cycle complet, puis approcher lentement |
+| Thésauriser les consommables | Vous mourez avec un inventaire plein | Dépenser des ressources pour éviter les poursuites |
+| Combattre à chaque rencontre | L'attrition vous épuise | Combattre uniquement quand la fuite est impossible |
+| Jouer sans casque | Vous manquez les avertissements audio précoces | Utiliser un casque ; l'audio est l'indice principal |
+
+Si vous souhaitez vérifier les détails de plateforme, le comportement des patchs ou les annonces officielles du jeu, le point de départ le plus fiable est la fiche officielle du jeu sur [la boutique Steam](https://store.steampowered.com/), qui contient les mises à jour publiées par les développeurs et la configuration système requise.
+
+## FAQ : les monstres de Dreadmoor
+
+**Les monstres de Dreadmoor vous poursuivent-ils toujours une fois qu'ils vous ont vu ?**
+
+Non. La plupart des rencontres passent par plusieurs étapes, et une créature qui vous repère peut d'abord simplement devenir suspicieuse. Si vous rompez rapidement la ligne de vue et restez silencieux, la conscience diminue souvent sans donner lieu à une vraie poursuite. La clé est de réagir dans la première ou les deux premières secondes, pas après que la créature a déjà réduit la distance.
+
+**Faut-il combattre les monstres ou les éviter ?**
+
+Évitez-les par défaut. Combattre coûte des ressources, fait du bruit et peut attirer d'autres créatures. Réservez le combat aux situations où un monstre bloque votre seul passage ou où se désengager est réellement impossible. Les joueurs qui font de l'évitement leur stratégie principale tendent à survivre nettement plus longtemps.
+
+**Se cacher fonctionne-t-il toujours ?**
+
+Se cacher fonctionne mieux quand la créature est en état de recherche et que votre cachette dispose d'une seconde sortie. Si un monstre vous a déjà verrouillé en poursuite, se cacher sur place est risqué — il risque de vérifier les cachettes évidentes. Se déplacer vers une nouvelle zone et laisser la recherche se réinitialiser est généralement plus sûr.
+
+**Comment apprendre rapidement les itinéraires de patrouille ?**
+
+Observez à distance sûre pendant un cycle complet avant de vous engager à traverser une zone. Notez où la créature tourne, combien de temps elle s'attarde et quelles portes elle franchit. La connaissance des itinéraires se cumule : une fois que vous connaissez le schéma, vous pouvez synchroniser vos déplacements au lieu de parier dessus.
