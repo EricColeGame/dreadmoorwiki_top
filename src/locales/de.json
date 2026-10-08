@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Vollständige Guides, Codes, Rezepte & Tier-Listen",
-    "description": "Dein ultimativer Guide für My Seafood Stand auf Roblox! Entdecke aktive Codes, Meeresfrüchte-Rezepte, die besten Upgrades, Gewinnstrategien und Fortschritts-Guides.",
-    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
+    "name": "DreadmoorWiki Wiki",
+    "shortName": "DreadmoorWiki",
+    "tagline": "Guides, Items, Charaktere & Überlebenstipps",
+    "description": "DreadmoorWiki Wiki bietet detaillierte Guides, Item-Informationen, Charakterdetails, Gameplay-Mechaniken und hilfreiche Ressourcen für Spieler in der düsteren Fantasy-Welt von Dreadmoor.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler."
   },
   "nav": {
     "races": "Rassen",
@@ -26,22 +26,22 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Rezepte, Upgrades & Guides",
-      "description": "Vollständiger My Seafood Stand Guide auf Roblox mit aktiven funktionierenden Codes, allen Fischen & Rezepten, Tier-Liste der besten Upgrades und Tipps für schnelles Geld."
+      "title": "DreadmoorWiki Wiki - Guides, Items & Charaktere",
+      "description": "DreadmoorWiki Wiki bietet detaillierte Guides, Item-Informationen, Charakterdetails, Gameplay-Mechaniken und hilfreiche Ressourcen für Spieler in der düsteren Fantasy-Welt von Dreadmoor."
     },
     "hero": {
-      "eyebrow": "Von Fans erstelltes Community-Wiki",
-      "title": "My Seafood Stand",
-      "description": "Meistere dein Restaurant in My Seafood Stand auf Roblox. Erhalte Zugriff auf alle aktiven Codes, den kompletten Fisch- & Rezeptkatalog, optimale Upgrades und Profi-Strategien zum Geldverdienen.",
+      "eyebrow": "Wiki für düstere Fantasy-Abenteuer",
+      "title": "DreadmoorWiki Wiki",
+      "description": "Ein umfassendes Wiki mit Gameplay-Informationen, Charakteren, Items, Mechaniken, Guides und Weltdetails zu Dreadmoor.",
       "stats": [
-        "Alle Codes",
-        "Alle Fische & Rezepte",
-        "Upgrade-Guides",
-        "Tipps für schnelles Geld"
+        "Besucher gesamt",
+        "Inhalte verfügbar",
+        "Aktive Codes",
+        "Tägliche Updates"
       ],
-      "primaryCta": "Anfänger-Guide",
-      "secondaryCta": "Meeresfrüchte Tier-Liste",
-      "tertiaryCta": "Aktive Codes",
+      "primaryCta": "Einsteiger-Guide",
+      "secondaryCta": "Angel-Guide",
+      "tertiaryCta": "Release-Datum",
       "videoLabel": "Offizielle Medien"
     },
     "updates": {
@@ -51,312 +51,344 @@
     },
     "start": {
       "eyebrow": "Hier starten",
-      "title": "Deine Reise in My Seafood Stand",
+      "title": "Deine Dreadmoor-Reise",
       "cards": [
         {
           "number": "1",
-          "title": "Anfänger-Guide",
-          "description": "Meistere die Geisterwelt vom ersten Tag an mit unserem umfassenden Anfänger-Guide zu Steuerung, Kampf und frühem Spielfortschritt."
+          "title": "Einsteiger-Guide",
+          "description": "Beginne deine erste Expedition mit unserem Einsteiger-Guide zu Steuerung, Überlebensgrundlagen und früher Progression."
         },
         {
           "number": "2",
-          "title": "Schnellstes Leveln",
-          "description": "Dominiere das Early-Game und maximiere deinen Fortschritt mit den effizientesten Level-Routen und Strategien."
+          "title": "Angel-Grundlagen",
+          "description": "Lerne Angelmechaniken, Ködernutzung und die besten frühen Angelplätze für zuverlässige Ressourcen."
         },
         {
           "number": "3",
-          "title": "Beste Farming-Spots",
-          "description": "Maximiere deine Seelenessenz- und EXP-Gewinne mit optimalen Farming-Orten für jede Phase."
+          "title": "Crafting-Prioritäten",
+          "description": "Verstehe, welche Werkzeuge und Ausrüstung du zuerst craften solltest, um länger zu überleben."
         },
         {
           "number": "4",
-          "title": "So extrahierst du",
-          "description": "Lerne die besten Methoden und Orte zum Extrahieren von Ressourcen in My Seafood Stand."
+          "title": "Boot-Upgrades",
+          "description": "Verbessere deinen Trawler, um tiefere Gewässer, seltenere Fänge und härtere Regionen in Dreadmoor zu erreichen."
         }
       ]
     },
     "popular": {
       "eyebrow": "Beliebte Seiten",
-      "title": "Im Trend",
+      "title": "Aktuell beliebt",
       "quickLinks": [
-        "Hollow-Fortschritt",
-        "Schnellstes Leveln",
-        "Geister-Talismane",
-        "Alle Boss-Guides"
+        "Einsteiger-Guide",
+        "Angel-Guide",
+        "Crafting-Guide",
+        "Alle Codes"
       ],
       "cards": [
         {
-          "badge": "Anfänger",
-          "title": "Anfänger-Guide",
-          "description": "Alles, was du von deinem ersten Login bis zum Meistern der Grundlagen von Kampf und Fortschritt brauchst.",
-          "href": "/beginner-guide"
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Guide",
+          "description": "Alles von der ersten Expedition bis zu den Grundlagen von Überleben, Angeln und Crafting.",
+          "href": "/guide/dreadmoor-beginner-guide"
         },
         {
           "badge": "Aktualisiert",
           "title": "Aktive Codes",
-          "description": "Alle funktionierenden Codes mit Belohnungen – jetzt einlösen, bevor sie ablaufen.",
-          "href": "/codes"
+          "description": "Alle funktionierenden Codes mit Belohnungen – löse sie ein, bevor sie ablaufen.",
+          "href": "/codes/dreadmoor-codes"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Angel-Guide",
+          "description": "Angelmechaniken, Ködernutzung, wertvolle Arten und wo du sie fängst.",
+          "href": "/guide/dreadmoor-fishing-guide"
         },
         {
           "badge": "Aktualisiert",
-          "title": "Ausrüstungsdatenbank",
-          "description": "94 Gegenstände auf 5 Slots – komplette Ausrüstungsdatenbank mit Werten, Seltenheit und Fundorten.",
-          "href": "/equipment"
+          "title": "Crafting-Guide",
+          "description": "Materialien, Rezepte, Überlebenswerkzeuge und Ausrüstungsverbesserungen in einer Datenbank.",
+          "href": "/guide/dreadmoor-crafting-guide"
         },
         {
           "badge": "Beliebt",
-          "title": "Welche Rasse solltest du wählen?",
-          "description": "Shinigami, Quincy oder Hollow – vergleiche alle drei und finde deinen perfekten Spielstil.",
-          "href": "/races/best-race"
+          "title": "Kreaturen-Guide",
+          "description": "Gefährliche Monster, aquatische Bedrohungen und wie du jede Begegnung überstehst.",
+          "href": "/bosses/dreadmoor-creatures-guide"
         },
         {
           "badge": "Neu",
-          "title": "Gegner & Monster",
-          "description": "23 Gegnertypen in 5 Regionen – Drops, Standorte und Farming-Tipps.",
-          "href": "/enemies"
+          "title": "Boot-Upgrades",
+          "description": "Trawler-Verbesserungen, Schiffsausrüstung und Upgrade-Prioritäten für längere Runs.",
+          "href": "/guide/dreadmoor-boat-upgrades"
+        },
+        {
+          "badge": "Neu",
+          "title": "Systemanforderungen",
+          "description": "Minimale und empfohlene PC-Anforderungen, Speicherbedarf und Performance-Hinweise.",
+          "href": "/guide/dreadmoor-system-requirements"
         },
         {
           "badge": "Beliebt",
-          "title": "Boss-Standorte & Drops",
-          "description": "Jeder Boss-Standort, jede Drop-Tabelle und Respawn-Timer in einer Übersicht.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Beliebt",
-          "title": "Beste Builds",
-          "description": "Optimale Werteverteilung, Skilltree-Auswahl und Talisman-Kombinationen für jeden Spielstil.",
-          "href": "/builds/best-builds"
+          "title": "Release-Datum",
+          "description": "Startzeitpunkt, Demo-Verfügbarkeit, Plattformen und offizielle Ankündigungen.",
+          "href": "/guide/dreadmoor-release-date"
         },
         {
           "badge": "Neu",
-          "title": "Shikai Tier-Liste",
-          "description": "Alle 6 Shinigami-Shikai-Typen nach PvP- und PvE-Leistung bewertet.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "Neu",
-          "title": "Welt-Events Guide",
-          "description": "Vorratslager, Raids und Endgame-Welt-Events mit seltenen Belohnungen.",
-          "href": "/world-events"
+          "title": "Karten-Guide",
+          "description": "Regionen, Wahrzeichen und Ressourcenorte in der Welt von Dreadmoor.",
+          "href": "/maps/dreadmoor-map-guide"
         }
       ]
     },
     "aboutGame": {
-      "title": "Was ist My Seafood Stand?",
+      "title": "Was ist Dreadmoor?",
       "paragraphs": [
-        "My Seafood Stand ist ein stilisiertes Kampf-RPG auf Roblox, inspiriert vom Bleach-Anime-Universum. Wähle aus drei spielbaren Rassen – Shinigami, Quincy oder Hollow – jede mit einzigartigen Fortschrittssystemen, freischaltbaren Fähigkeiten und Entwicklungspfaden. Meistere über 130 Fähigkeiten, während du dich bis zur Höchststufe 100 vorkämpfst.",
-        "Egal, ob du dein erstes Shikai freischaltest, dich von einem Basis-Hollow zu einem Arrancar entwickelst oder Quincy-Lieutenant-Missionen grindest: Unser Wiki deckt jedes System mit detaillierten Guides, Datentabellen und Schritt-für-Schritt-Anleitungen ab."
+        "Dreadmoor ist ein düsteres Fantasy-Überlebensabenteuer auf Steam. Spieler erkunden eine verfluchte Welt, angeln seltene Fänge, sammeln Ressourcen, craften Ausrüstung und verbessern ihr Boot, um längere Expeditionen zu überleben.",
+        "Ob du die Kern-Gameplay-Schleife lernst, eine Crafting-Route planst oder gefährliche Kreaturen jagst – unser Wiki deckt jedes System mit Guides, Datentabellen und Schritt-für-Schritt-Walkthroughs ab."
       ],
       "stats": [
         {
-          "label": "Entwickler",
-          "value": "Midnight Continent"
-        },
-        {
           "label": "Plattform",
-          "value": "Roblox"
+          "value": "Steam"
         },
         {
           "label": "Genre",
-          "value": "Kampf-RPG"
+          "value": "Überlebensabenteuer"
         },
         {
-          "label": "Besuche",
-          "value": "12.6M+"
+          "label": "Thema",
+          "value": "Dark Fantasy"
         },
         {
-          "label": "Favoriten",
-          "value": "243K+"
+          "label": "Kernschleife",
+          "value": "Angeln, Craften, Überleben"
         },
         {
-          "label": "Fähigkeiten gesamt",
-          "value": "130+"
+          "label": "Progression",
+          "value": "Boot-Upgrades"
         },
         {
-          "label": "Maximalstufe",
-          "value": "100"
+          "label": "Store",
+          "value": "Steam-Seite"
         }
       ],
-      "cta": "Alle Guides erkunden"
+      "cta": "Alle Guides entdecken"
     },
     "explore": {
-      "title": "My Seafood Stand Wiki erkunden",
-      "description": "Meistere dein Meeresfrüchte-Restaurant auf Roblox mit unverzichtbaren Fortschritts-Guides, aktiven Codes, vollständigen Fisch- & Rezeptkatalogen und optimalen Upgrade-Strategien.",
+      "title": "DreadmoorWiki Wiki erkunden",
+      "description": "Meistere Dreadmoor mit Überlebens-Guides, Angel- und Crafting-Datenbanken, Kreaturen-Notizen, Boot-Upgrade-Pfaden und Release-Infos.",
       "modules": [
         {
           "order": 1,
-          "name": "Funktionierende Codes für My Seafood Stand",
-          "description": "Löse die neuesten funktionierenden Codes ein, um dir kostenlose Münzen, Edelsteine, exklusive Kosmetika und Boost-Items zu sichern, bevor sie ablaufen.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Dreadmoor Einsteiger-Guide",
+          "description": "Ein Starter-Guide zur Kern-Gameplay-Schleife, zu ersten Expeditionen, Angel-Grundlagen, Überlebensvorbereitung, Crafting-Prioritäten und frühen Progressionsentscheidungen.",
+          "href": "/guide/dreadmoor-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Kostenloses Geld & Belohnungen"
+              "label": "1",
+              "detail": "Kern-Überlebensschleife und Steuerung lernen"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exklusiver Fähigkeiten-Reroll"
+              "label": "2",
+              "detail": "Erste Expedition und Ausrüstung vorbereiten"
             },
             {
-              "label": "Tipp",
-              "detail": "Codes achten auf Groß-/Kleinschreibung; gib sie im Einstellungsmenü ein"
+              "label": "3",
+              "detail": "Ersten Fisch fangen und mit Crafting beginnen"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Anfänger-Guide: Starten & Kunden bedienen",
-          "description": "Schritt-für-Schritt-Anleitung für Einsteiger zu Bestellungen, Essenszubereitung, Stationsverwaltung und Kassiermechaniken.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Dreadmoor Angel-Guide",
+          "description": "Detaillierter Angelbereich zu Mechaniken, Ködernutzung, Fangstrategien, wertvollen Arten und der Verbindung von Angeln und Progression.",
+          "href": "/guide/dreadmoor-fishing-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Schritt 1",
-              "detail": "Bestellung des Kunden vorne am Stand aufnehmen"
+              "label": "🎣",
+              "detail": "Köder- und Rutenwahl für jede Region"
             },
             {
-              "label": "Schritt 2",
-              "detail": "Meeresfrüchte auf dem Grill oder an der Kochstation zubereiten"
+              "label": "🐟",
+              "detail": "Wertvolle Arten und ihre Spawnorte"
             },
             {
-              "label": "Schritt 3",
-              "detail": "Warmes Essen zügig servieren, um maximales Trinkgeld zu erhalten"
+              "label": "💰",
+              "detail": "Fänge in stetigen Gewinn verwandeln"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Meeresfrüchte- & Fisch-Tier-Liste",
-          "description": "Vollständige Übersicht aller fangbaren Fische und Meeresfrüchte, bewertet nach Marktwert, Kundennachfrage und Gewinnspannen.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Dreadmoor Crafting-Guide",
+          "description": "Crafting- und Upgrade-Datenbank mit Materialien, Rezepten, Überlebenswerkzeugen, Ausrüstungsverbesserungen und bootbezogenen Systemen.",
+          "href": "/guide/dreadmoor-crafting-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S-Tier",
-              "detail": "Königskrabbe · Hummer-Boil — Höchster Gewinn pro Kunde"
+              "label": "🔧",
+              "detail": "Wichtigste Überlebenswerkzeuge zuerst craften"
             },
             {
-              "label": "A-Tier",
-              "detail": "Lachs · Riesen-Garnelen · Thunfischsteak — Zuverlässige, schnelle Einnahmequellen"
+              "label": "📦",
+              "detail": "Materialquellen und Sammelrouten"
             },
             {
-              "label": "B-Tier",
-              "detail": "Muscheln · Austern · Tintenfisch — Gute Margen im Mid-Game"
-            },
-            {
-              "label": "C-Tier",
-              "detail": "Gewöhnliche Sardinen · Kleine Krabbe — Starter-Meeresfrüchte"
+              "label": "⚙️",
+              "detail": "Die wichtigsten Ausrüstungsverbesserungen"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Bester Upgrade-Fortschritt",
-          "description": "Die optimale Reihenfolge für deine Ausgaben: Küchenstationen erweitern, Servicepersonal einstellen, Grills beschleunigen und Sitzplätze aufwerten.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Dreadmoor Boot-Upgrades",
+          "description": "Modul zu Trawler-Verbesserungen, Schiffsausrüstung, Erkundungsreichweite und Upgrade-Prioritäten für längere, profitablere Expeditionen.",
+          "href": "/guide/dreadmoor-boat-upgrades",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priorität 1",
-              "detail": "Kochgeschwindigkeit & zusätzliche Brenner — Beseitigt Kundenrückstau"
+              "label": "🚤",
+              "detail": "Rumpf- und Motor-Upgrades für mehr Reichweite"
             },
             {
-              "label": "Priorität 2",
-              "detail": "Sitzplatzkapazität — Erhöht die Anzahl gleichzeitiger Gäste"
+              "label": "🧭",
+              "detail": "Navigationswerkzeuge für tiefere Gewässer"
             },
             {
-              "label": "Priorität 3",
-              "detail": "Auto-Koch / Kellner-Personal — Passives, automatisches Einkommen"
+              "label": "📈",
+              "detail": "Upgrade-Reihenfolge, die Ressourcen spart"
             }
           ]
         },
         {
           "order": 5,
-          "name": "So verdienst du schnell Geld",
-          "description": "Die besten Strategien zum Geldverdienen, VIP-Bewertung, Maximierung von Trinkgeldern und hocheffiziente Serviertipps.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Dreadmoor Kreaturen-Guide",
+          "description": "Kreaturen-Datenbank mit gefährlichen Monstern, aquatischen Bedrohungen, Kampfbegegnungen und Überlebensstrategien für jede Region.",
+          "href": "/bosses/dreadmoor-creatures-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Kombo",
-              "detail": "Bestellungen schnell aneinanderreihen, um den Kundenzufriedenheits-Multiplikator aufzubauen"
+              "label": "👹",
+              "detail": "Landmonster und wie du sie bekämpfst"
             },
             {
-              "label": "Hohe Marge",
-              "detail": "Konzentriere dich während der Stoßzeiten auf hochstufige Meeresfrüchte-Boils"
+              "label": "🦑",
+              "detail": "Aquatische Bedrohungen und sichere Seefahrt"
             },
             {
-              "label": "Reinvestieren",
-              "detail": "Behalte 20 % Barreserve für den Nachkauf frischer Zutaten"
+              "label": "🛡️",
+              "detail": "Ausrüstung und Taktik für harte Kämpfe"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Grundstückserweiterung & Stand-Anpassung",
-          "description": "Schalte größere Grundstücke frei, erstelle optimale Koch-Layouts und füge wertvolle dekorative Upgrades hinzu.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Dreadmoor Release-Datum",
+          "description": "Release-Informationsseite zu Startzeitpunkt, Demo-Verfügbarkeit, Plattformen, Steam-Details und offiziellen Ankündigungen.",
+          "href": "/guide/dreadmoor-release-date",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Grundstück 1",
-              "detail": "Strandstand für Einsteiger (3 Tische, 1 Grill)"
+              "label": "📅",
+              "detail": "Startzeitpunkt und aktueller Status"
             },
             {
-              "label": "Grundstück 2",
-              "detail": "Promenaden-Restaurant (6 Tische, 2 Grills, Kochstation)"
+              "label": "🧪",
+              "detail": "Kostenlose Demo auf Steam"
             },
             {
-              "label": "Grundstück 3",
-              "detail": "Luxus-Meeresfrüchte-Pavillon am Pier (Vollautomatisiert & VIP-Plätze)"
+              "label": "💻",
+              "detail": "Unterstützte Plattformen und Stores"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Dreadmoor Systemanforderungen",
+          "description": "Hardware-Guide mit minimalen und empfohlenen PC-Anforderungen, Speicherbedarf und Performance-Hinweisen.",
+          "href": "/guide/dreadmoor-system-requirements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "🖥️",
+              "detail": "Minimale PC-Spezifikationen"
+            },
+            {
+              "label": "🚀",
+              "detail": "Empfohlene Specs für flüssiges Spiel"
+            },
+            {
+              "label": "💾",
+              "detail": "Speicher- und Performance-Hinweise"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Dreadmoor Codes",
+          "description": "Seite zur Verfolgung offizieller Codes, Belohnungen und Giveaways aus offiziellen Kanälen.",
+          "href": "/codes/dreadmoor-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "COMING-SOON",
+              "detail": "Derzeit keine aktiven Codes verfügbar",
+              "badge": "Bald"
+            },
+            {
+              "label": "STAY-TUNED",
+              "detail": "Schau bald wieder vorbei für neue Codes",
+              "badge": "Bald"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Häufig gestellte Fragen (FAQ)",
-      "description": "Schnelle Antworten auf die häufigsten Fragen zu My Seafood Stand.",
+      "title": "Häufige Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Dreadmoor.",
       "items": [
         {
-          "question": "Was ist My Seafood Stand?",
-          "answer": "My Seafood Stand ist ein Free-to-Play-Kampf-RPG auf Roblox, das auf dem Anime Bleach basiert. Du wählst eine der Spielmechaniken Shinigami (Soul Reaper), Quincy oder Hollow – jede mit eigenem Fortschritt, Kampffähigkeiten und Evolutionssystemen. Das Spiel bietet über 130 Fähigkeiten, eine Maximalstufe von 100, Bosskämpfe und umfassende Build-Anpassungen."
+          "question": "Was ist Dreadmoor?",
+          "answer": "Dreadmoor ist ein düsteres Fantasy-Überlebensabenteuer auf Steam. Du erkundest eine verfluchte Welt, angelst, sammelst Ressourcen, craftest Ausrüstung und verbesserst dein Boot für längere Expeditionen."
         },
         {
-          "question": "Welche Rasse sollten Anfänger wählen?",
-          "answer": "Shinigami ist die unkomplizierteste Starter-Rasse, während Hollow und Quincy spezialisiertere Fortschrittspfade bieten. Vergleiche ihre Fähigkeiten, bevor du dich entscheidest."
+          "question": "Auf welchen Plattformen ist Dreadmoor verfügbar?",
+          "answer": "Dreadmoor ist für PC über Steam verfügbar."
         },
         {
-          "question": "Was ist die aktuelle Maximalstufe?",
-          "answer": "Die aktuelle Maximalstufe liegt bei 100, mit mehr als 130 verfügbaren Fähigkeiten in den Talentbäumen und Rassen-Fortschrittssystemen."
+          "question": "Gibt es eine Dreadmoor-Demo?",
+          "answer": "Ja, auf Steam ist neben dem vollständigen Spiel eine kostenlose Demo verfügbar, die du auf die Wunschliste setzen kannst."
         },
         {
           "question": "Wo finde ich aktive Codes?",
-          "answer": "Besuche die Codes-Seite für funktionierende Codes, Belohnungen, Ablaufhinweise und Einlöse-Anleitungen."
+          "answer": "Auf der Codes-Seite findest du funktionierende Codes, Belohnungen, Ablaufhinweise und Einlöseanleitungen."
         },
         {
-          "question": "Werden die Boss-Guides aktualisiert?",
-          "answer": "Die Boss-Seiten sind strukturiert mit Spawn-Hinweisen, Angriffsmustern, Strategien, Drop-Tabellen und den nächsten Schritten für deinen Fortschritt."
+          "question": "Werden die Guides aktualisiert?",
+          "answer": "Guide-Seiten enthalten Walkthroughs, Crafting-Daten, Kreaturen-Notizen, Drops und nächste Schritte für die Progression."
         }
       ]
     },
     "finalCta": {
-      "title": "Bereit, My Seafood Stand zu meistern?",
-      "description": "Von deinen ersten Schritten in Fort Adams bis zu den Endgame-Bosskämpfen – unser Community-Wiki begleitet dich mit kostenlosen, aktuellen Guides.",
-      "primary": "Anfänger-Guide lesen",
-      "secondary": "Auf Roblox spielen"
+      "title": "Bereit, Dreadmoor zu überleben?",
+      "description": "Von deinem ersten Angelausflug bis zu voll ausgebauten Boot-Expeditionen deckt unser Community-Wiki jedes System mit kostenlosen, aktuellen Guides ab.",
+      "primary": "Den Einsteiger-Guide lesen",
+      "secondary": "Auf Steam spielen"
     }
   },
   "bosses": {
     "meta": {
-      "title": "Bosse — Vollständiger Guide & Komplettlösung | My Seafood Stand Wiki",
-      "description": "Vollständige Boss-Guides für My Seafood Stand — alle Bosse vom Tutorial-Ritter Gelum bis zu Endgame-Begegnungen mit Strategien, Drops und Respawn-Timern."
+      "title": "Kreaturen & Bosse — Kompletter Guide | DreadmoorWiki Wiki",
+      "description": "Komplette Kreaturen- und Boss-Guides für Dreadmoor — gefährliche Monster, aquatische Bedrohungen, Kampfstrategien, Drops und Überlebenstipps."
     },
-    "overviewTitle": "Boss-Übersicht",
-    "overviewDescription": "Vollständige Guides für jede Boss-Begegnung in My Seafood Stand – 13 Bosse vom Tutorial-Ritter Gelum bis zu Endgame-Kämpfen wie dem Gelid Dweller und den Gauntlet-Herausforderungen.",
-    "body": "Bosse in My Seafood Stand dienen als Fähigkeitstests und Meilensteine deines Fortschritts. Manche, wie Gelum, bringen dir während des Tutorials die Grundlagen des Kampfsystems bei. Andere, wie der Shikai-Geist und der Resurreccion-Geist, sind Begegnungen in der inneren Welt, die direkt an die Kraft-Freischaltung deiner Rasse gekoppelt sind. Gebietsbosse wie Dragonfly, King Croc und Securis bewachen den Zugang zu neuen Zonen und Belohnungen. Zu den jüngsten Neuzugängen gehören der Rogue Commander mit seinen Minions, der eisige The Everfrosted sowie vier brandneue Endgame-Bosse: The Gelid Dweller, Cinder of the Broken Sky, Devourer of Hosts und der Wandering Swordsman (Junichiro). Jeder Boss verfügt über eigene Angriffsmuster und telegrafierte Angriffe, die du verinnerlichen musst. Nutze die folgenden Guides, um dich optimal auf jeden Kampf vorzubereiten.",
-    "guidesTitle": "Boss-Guides",
+    "overviewTitle": "Kreaturen & Bosse Übersicht",
+    "overviewDescription": "Komplette Guides für jede gefährliche Begegnung in Dreadmoor, von aquatischen Bedrohungen bis zu Dark-Fantasy-Monstern.",
+    "body": "Kreaturen in Dreadmoor sind Überlebensherausforderungen und Progressionshürden. Manche Begegnungen lehren früh die Kampfgrundlagen, andere bewachen seltene Ressourcen, neue Regionen und wertvolle Beute. Jede Kreatur hat eigene Angriffsmuster und telegraphierte Moves, die du lernen musst. Nutze die Guides unten, um dich auf jeden Kampf und jede Expedition vorzubereiten.",
+    "guidesTitle": "Kreaturen- & Boss-Guides",
     "readMore": "Mehr lesen",
     "new": "Neu",
     "popular": "Beliebt"
@@ -365,36 +397,36 @@
     "wikiNavigation": "Wiki-Navigation",
     "activeCodes": "Aktive Codes",
     "updated": "Aktualisiert",
-    "viewAllCodes": "Alle Codes anzeigen",
-    "playOnRoblox": "Auf Roblox spielen",
+    "viewAllCodes": "Alle Codes ansehen",
+    "playOnSteam": "Auf Steam spielen",
     "inThisSection": "In diesem Abschnitt",
     "tableOfContents": "Inhaltsverzeichnis",
     "nextSteps": "Nächste Schritte",
     "needHelp": "Brauchst du Hilfe?",
-    "relatedReading": "Weiterführende Artikel",
-    "relatedGuides": "Ähnliche Guides",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Guides",
     "readMore": "Mehr lesen",
     "officialMedia": "Offizielle Medien",
-    "home": "Startseite",
+    "home": "Start",
     "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub, der Fortschrittsrouten, Rassen, Bosse, Builds und essenzielles Spielwissen für neue und erfahrene Spieler gleichermaßen abdeckt.",
+    "aboutTitle": "DreadmoorWiki Wiki",
+    "about": "DreadmoorWiki Wiki ist ein unabhängiges, von Fans erstelltes Guide-Hub mit Einsteiger-Walkthroughs, Angel- und Crafting-Systemen, Kreaturen-Begegnungen, Boot-Upgrades und wichtigem Wissen für Dreadmoor-Spieler.",
     "quickLinks": "Schnelllinks",
     "guides": "Guides",
     "legal": "Rechtliches",
-    "copyright": "2026 My Seafood Stand Wiki. Nicht verbunden mit Midnight Continent oder Roblox.",
-    "description": "Kostenloses, von Bleach inspiriertes Kampf-RPG auf Roblox. 3 Rassen, 130+ Fähigkeiten, Lv100-Cap.",
-    "playGame": "My Seafood Stand spielen",
-    "officialDiscord": "Offizieller Discord",
-    "officialYoutube": "Offizieller YouTube-Kanal",
-    "vvBuilder": "VV Builder (Skill-Planer)",
-    "beginnerGuide": "Anfänger-Guide",
+    "copyright": "2026 DreadmoorWiki Wiki. Nicht mit den Dreadmoor-Entwicklern oder Valve verbunden.",
+    "description": "Düsteres Fantasy-Überlebensabenteuer auf Steam. Angeln, craften, sammeln und dein Boot verbessern.",
+    "playGame": "Dreadmoor auf Steam spielen",
+    "officialDiscord": "Steam-Community",
+    "officialYoutube": "Offizieller Trailer",
+    "vvBuilder": "Dreadmoor Loadout-Planer",
+    "beginnerGuide": "Einsteiger-Guide",
     "raceGuides": "Rassen-Guides",
     "bossGuides": "Boss-Guides",
     "buildGuide": "Build-Guide",
-    "privacyPolicy": "Datenschutzerklärung",
+    "privacyPolicy": "Datenschutz",
     "termsOfService": "Nutzungsbedingungen"
   }
 }

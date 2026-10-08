@@ -3,8 +3,8 @@ import { LegalPage } from "@/components/legal-page";
 export default function AboutPage() {
   return (
     <LegalPage title="About">
-      <p>VV Ultimatum Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.</p>
-      <p>The layout, navigation, article cards, and detail format are reproduced from the target VV: ULTIMATUM wiki pages requested for this implementation.</p>
+      <p>DreadmoorWiki Wiki is an independent fan-built guide hub covering beginner walkthroughs, fishing and crafting systems, creature encounters, boat upgrades, and essential game knowledge for Dreadmoor players.</p>
+      <p>We gather guides, item data, and survival tips in one place so new and veteran players can plan their next expedition with confidence.</p>
     </LegalPage>
   );
 }

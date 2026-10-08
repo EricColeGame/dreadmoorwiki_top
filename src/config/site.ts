@@ -25,12 +25,12 @@ export const siteConfig: SiteConfig = {
   tagline: "Guides, Items, Characters & Survival Tips",
   description: "DreadmoorWiki Wiki provides detailed guides, item information, character details, gameplay mechanics, and helpful resources for players exploring the dark fantasy world.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://dreadmoorwiki.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://dreadmoorwiki.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@dreadmoorwiki.top",
   gameUrl: "https://store.steampowered.com/app/3629430/DREADMOOR/",
   heroVideoId: "36nRuRmunQI", // DREADMOOR gameplay video
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://steamcommunity.com/app/3629430",
+    youtube: "https://store.steampowered.com/app/3629430/DREADMOOR/",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
