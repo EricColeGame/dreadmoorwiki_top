@@ -18,6 +18,13 @@ const localeLabels = {
   fr: "Français",
 } satisfies Record<Locale, string>;
 
+function getLocaleLabel(locale: string) {
+  return (
+    (localeLabels as Record<string, string | undefined>)[locale] ??
+    locale.toUpperCase()
+  );
+}
+
 /**
  * 语言切换器（下拉菜单版）：点击 Globe 图标展开所有语言列表
  * 当前语言显示 ✓ 标记，选择后跳转对应语言路径
@@ -47,7 +54,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="gap-1.5 text-xs font-medium text-muted-foreground hover:text-foreground">
           <Globe className="h-4 w-4" />
-          <span>{localeLabels[locale] || locale.toUpperCase()}</span>
+          <span>{getLocaleLabel(locale)}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="min-w-[140px]">
@@ -57,7 +64,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
             onClick={() => handleSwitch(loc)}
             className="flex items-center justify-between gap-3"
           >
-            <span>{localeLabels[loc] || loc.toUpperCase()}</span>
+            <span>{getLocaleLabel(loc)}</span>
             {loc === (locale as Locale) && <Check className="h-4 w-4 text-[hsl(var(--nav-theme))]" />}
           </DropdownMenuItem>
         ))}
