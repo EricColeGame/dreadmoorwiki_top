@@ -7,22 +7,9 @@
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
-    "races": "Races",
-    "bosses": "Bosses",
-    "guides": "Guides",
-    "codes": "Codes",
-    "tierList": "Tier List",
-    "maps": "Maps",
-    "skills": "Skills",
-    "updates": "Updates",
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme",
-    "guide": "Guides",
-    "seafood": "Seafood & Recipes",
-    "upgrades": "Upgrades",
-    "gamepasses": "Gamepasses",
-    "community": "Community"
+    "toggleTheme": "Toggle theme"
   },
   "home": {
     "meta": {
@@ -380,19 +367,7 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {
-    "meta": {
-      "title": "Creatures & Bosses — Complete Guide | DreadmoorWiki Wiki",
-      "description": "Complete creature and boss guides for Dreadmoor — dangerous monsters, aquatic threats, combat strategies, drops, and survival tips."
-    },
-    "overviewTitle": "Creatures & Bosses Overview",
-    "overviewDescription": "Complete guides for every dangerous encounter in Dreadmoor, from aquatic threats to dark fantasy monsters.",
-    "body": "Creatures in Dreadmoor serve as survival challenges and progression gates. Some encounters teach core combat fundamentals early on, while others guard rare resources, new regions, and valuable loot. Each creature has distinct attack patterns and telegraphed moves you need to learn. Use the guides below to prepare for every fight and expedition.",
-    "guidesTitle": "Creatures & Bosses Guides",
-    "readMore": "Read more",
-    "new": "New",
-    "popular": "Popular"
-  },
+  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
