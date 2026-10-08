@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://steamcommunity.com/app/3629430",
     youtube: "https://store.steampowered.com/app/3629430/DREADMOOR/",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "es", "fr"],
   defaultLocale: "en",
 };

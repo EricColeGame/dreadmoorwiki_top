@@ -1,1 +1,488 @@
-{}
+{
+  "site": {
+    "name": "DreadmoorWiki Wiki",
+    "shortName": "DreadmoorWiki",
+    "tagline": "Guías, objetos, personajes y consejos de supervivencia",
+    "description": "DreadmoorWiki Wiki ofrece guías detalladas, información de objetos, detalles de personajes, mecánicas de juego y recursos útiles para los jugadores que exploran el mundo de fantasía oscura de Dreadmoor.",
+    "legalNotice": "Wiki de fans no oficial. Hecho por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "mechanics": "Mecánicas",
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "multiplayer": "Multijugador",
+    "comparison": "Comparativas",
+    "community": "Comunidad",
+    "reviews": "Reseñas"
+  },
+  "home": {
+    "meta": {
+      "title": "DreadmoorWiki Wiki: guías, objetos y personajes",
+      "description": "DreadmoorWiki Wiki ofrece guías detalladas, información de objetos, detalles de personajes, mecánicas de juego y recursos útiles para los jugadores que exploran el mundo de fantasía oscura."
+    },
+    "hero": {
+      "eyebrow": "Wiki de aventura de fantasía oscura",
+      "title": "DreadmoorWiki Wiki",
+      "description": "Un wiki completo con información de juego, personajes, objetos, mecánicas, guías y detalles del mundo de Dreadmoor para los jugadores.",
+      "stats": [
+        "Visitas totales",
+        "Contenido disponible",
+        "Códigos activos",
+        "Actualizaciones diarias"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Guía de pesca",
+      "tertiaryCta": "Fecha de lanzamiento",
+      "videoLabel": "Contenido oficial"
+    },
+    "updates": {
+      "title": "Últimas novedades",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje en DreadmoorWiki",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende el bucle de supervivencia inicial: camina en lugar de correr, establece un punto de anclaje seguro y consigue una fuente de luz fiable antes de explorar."
+        },
+        {
+          "number": "2",
+          "title": "Pesca y recursos",
+          "description": "Convierte el agua en un suministro constante de comida, bienes de comercio y componentes de fabricación con el ciclo de lanzar, esperar, enganchar y recoger."
+        },
+        {
+          "number": "3",
+          "title": "Fabricación y mejoras",
+          "description": "Fabrica solo cuando lo necesites, protege tus últimos materiales críticos e invierte las primeras mejoras en alcance y supervivencia del casco."
+        },
+        {
+          "number": "4",
+          "title": "Sobrevive a las amenazas",
+          "description": "Lee la atención de los monstruos, rompe la línea de visión y retírate antes de que una mala pelea te cueste una expedición entera."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias ahora",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Guía de pesca",
+        "Guía de fabricación",
+        "Todos los códigos"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Todo lo que necesitas, desde tu primera expedición hasta dominar lo básico de supervivencia, pesca y fabricación.",
+          "href": "/guide/dreadmoor-beginner-guide"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Códigos activos",
+          "description": "Todos los códigos activos con recompensas: canjéalos antes de que caduquen.",
+          "href": "/community/dreadmoor-discord"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guía de pesca",
+          "description": "Mecánicas de pesca, uso del cebo, especies valiosas y dónde capturarlas.",
+          "href": "/mechanics/dreadmoor-fishing"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Guía de fabricación",
+          "description": "Materiales, recetas, herramientas de supervivencia y mejoras de equipo en una sola base de datos.",
+          "href": "/guide/dreadmoor-survival-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guía de criaturas",
+          "description": "Monstruos peligrosos, amenazas acuáticas y cómo sobrevivir a cada encuentro.",
+          "href": "/mechanics/dreadmoor-monsters"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Mejoras de barco",
+          "description": "Mejoras del arrastrero, equipo del barco y prioridades de mejora para travesías más largas.",
+          "href": "/mechanics/dreadmoor-boat"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Requisitos del sistema",
+          "description": "Requisitos mínimos y recomendados de PC, espacio de almacenamiento y notas de rendimiento.",
+          "href": "/platforms/dreadmoor-steam"
+        },
+        {
+          "badge": "Popular",
+          "title": "Fecha de lanzamiento",
+          "description": "Fecha de lanzamiento, disponibilidad de demo, plataformas y anuncios oficiales.",
+          "href": "/release/dreadmoor-release-date"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Guía del mapa",
+          "description": "Regiones, puntos de interés y ubicaciones de recursos en el mundo de Dreadmoor.",
+          "href": "/mechanics/dreadmoor-map"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es DreadmoorWiki?",
+      "paragraphs": [
+        "Dreadmoor es una aventura de supervivencia de fantasía oscura en Steam. Navegas por un mundo cubierto de niebla, pescas en sus aguas, saqueas ruinas, fabricas herramientas y mejoras tu barco para que cada expedición llegue más lejos antes de que caiga la oscuridad.",
+        "DreadmoorWiki reúne ese conocimiento en un solo lugar: rutas para principiantes, mecánicas de pesca, disciplina de fabricación, mejoras de barco, comportamiento de criaturas, seguimiento del lanzamiento y detalles de plataformas, para que los nuevos supervivientes planifiquen una partida en lugar de perderla."
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "Steam"
+        },
+        {
+          "label": "Género",
+          "value": "Aventura de supervivencia"
+        },
+        {
+          "label": "Tema",
+          "value": "Fantasía oscura"
+        },
+        {
+          "label": "Bucle principal",
+          "value": "Pesca, fabrica, sobrevive"
+        },
+        {
+          "label": "Progresión",
+          "value": "Mejoras de barco"
+        },
+        {
+          "label": "Enfoque",
+          "value": "Guías para nuevos jugadores"
+        }
+      ],
+      "cta": "Explora todas las guías"
+    },
+    "explore": {
+      "title": "Explora DreadmoorWiki",
+      "description": "Domina Dreadmoor con rutas para principiantes, bases de datos de pesca y fabricación, comportamiento de criaturas, rutas de mejora de barco, seguimiento del lanzamiento y detalles de plataformas.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de DreadmoorWiki",
+          "description": "La guía para principiantes de DreadmoorWiki cubre el bucle de juego principal, las primeras expediciones, la preparación para sobrevivir, las prioridades de fabricación y las decisiones tempranas de progresión que mantienen viva una partida nueva.",
+          "href": "/guide/dreadmoor-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Establece un punto de anclaje seguro al que puedas retirarte en tus primeros diez minutos."
+            },
+            {
+              "label": "2",
+              "detail": "Consigue una fuente de luz fiable antes de leer el terreno, las amenazas o las salidas."
+            },
+            {
+              "label": "3",
+              "detail": "Aprende tu propio perfil de ruido para controlar hasta dónde llega la atención."
+            },
+            {
+              "label": "4",
+              "detail": "Explora una ruta de ida y vuelta en lugar de adentrarte en terreno desconocido."
+            },
+            {
+              "label": "5",
+              "detail": "Acumula una pequeña reserva de suministros antes de tu primer viaje largo lejos del refugio."
+            },
+            {
+              "label": "6",
+              "detail": "Evita toda pelea de la que no puedas sacar provecho y mantén tu progreso intacto."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de pesca de DreadmoorWiki",
+          "description": "La guía de pesca de DreadmoorWiki explica las mecánicas de pesca, el uso del cebo, las estrategias de captura, las especies valiosas y cómo las capturas alimentan la cocina, la fabricación y el comercio.",
+          "href": "/mechanics/dreadmoor-fishing",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Zonas",
+              "detail": "Pesca en estructuras, desniveles y pecios en lugar de lanzar en fondos vacíos."
+            },
+            {
+              "label": "Cebo",
+              "detail": "Elige cebo básico, intermedio o premium según el agua en la que realmente estés pescando."
+            },
+            {
+              "label": "Recogida",
+              "detail": "Suelta presión en los picos de tensión para que una captura valiosa no rompa tu línea."
+            },
+            {
+              "label": "Noche",
+              "detail": "Las zonas nocturnas albergan especies más raras, así que lleva luz y define primero una condición de salida."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de fabricación de DreadmoorWiki",
+          "description": "La guía de fabricación de DreadmoorWiki cubre materiales, recetas, herramientas de supervivencia, mejoras de equipo y cómo los recursos recolectados se convierten en equipo más fuerte.",
+          "href": "/guide/dreadmoor-survival-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Herramientas",
+              "detail": "Fabrica herramientas de supervivencia cuando las necesites, no cuando puedas."
+            },
+            {
+              "label": "Reparaciones",
+              "detail": "Reserva materiales de reparación para equipo que puedas reemplazar tras una pérdida costosa."
+            },
+            {
+              "label": "Almacén",
+              "detail": "Suelta los materiales acumulados y lleva solo lo que necesite tu próxima mejora."
+            },
+            {
+              "label": "Mejoras",
+              "detail": "Nunca gastes tu último material crítico en una mejora opcional."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Mejoras de barco de DreadmoorWiki",
+          "description": "Las mejoras de barco de DreadmoorWiki se centran en mejoras del arrastrero, equipo del barco, alcance de exploración y el orden de mejora que protege una expedición larga.",
+          "href": "/mechanics/dreadmoor-boat",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "La capacidad de combustible es lo primero, porque el alcance condiciona cada objetivo lejano."
+            },
+            {
+              "label": "A",
+              "detail": "Después, el blindaje del casco, para que las colisiones y las zonas hostiles no terminen la partida."
+            },
+            {
+              "label": "B",
+              "detail": "Las mejoras de motor recompensan a quienes ya controlan el acelerador y la inercia."
+            },
+            {
+              "label": "C",
+              "detail": "El almacenamiento y la iluminación llegan después, cuando el alcance y la supervivencia están cubiertos."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de criaturas de DreadmoorWiki",
+          "description": "La guía de criaturas de DreadmoorWiki cubre monstruos peligrosos, amenazas acuáticas, comportamiento de detección y las tácticas de supervivencia que te llevan a casa.",
+          "href": "/mechanics/dreadmoor-monsters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patrulla",
+              "detail": "Aprende las rutas de patrulla y muévete en silencio mientras la criatura esté inactiva."
+            },
+            {
+              "label": "Sospecha",
+              "detail": "Quédate quieto o rompe la línea de visión en el momento en que la atención empiece a llenarse."
+            },
+            {
+              "label": "Búsqueda",
+              "detail": "Abandona la zona mientras la criatura busca tu última posición conocida."
+            },
+            {
+              "label": "Escape",
+              "detail": "Comprométete con una ruta de escape planificada en lugar de luchar contra cada amenaza."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Fecha de lanzamiento de DreadmoorWiki",
+          "description": "El seguimiento del lanzamiento de DreadmoorWiki cubre la fecha de lanzamiento, la disponibilidad de demo, las plataformas, los detalles de Steam y los canales oficiales que merece la pena seguir.",
+          "href": "/release/dreadmoor-release-date",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Estado",
+              "detail": "DreadmoorWiki sigue la ventana oficial de lanzamiento y los canales de anuncios."
+            },
+            {
+              "label": "Demo",
+              "detail": "Una demo gratuita te permite probar los controles y el rendimiento antes de comprar."
+            },
+            {
+              "label": "Steam",
+              "detail": "La página de Steam incluye la opción de lista de deseos y la lista de características."
+            },
+            {
+              "label": "Consolas",
+              "detail": "Los lanzamientos en consola y portátiles se siguen a medida que llegan noticias de plataformas."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Requisitos del sistema de DreadmoorWiki",
+          "description": "Los requisitos del sistema de DreadmoorWiki enumeran el hardware, la memoria, los gráficos y el almacenamiento que deberías comprobar antes de comprar.",
+          "href": "/platforms/dreadmoor-steam",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Windows",
+              "detail": "Confirma que tu versión exacta del sistema operativo sea compatible antes de comprar."
+            },
+            {
+              "label": "8 GB RAM",
+              "detail": "Comprueba la memoria total, no la disponible, frente al requisito indicado."
+            },
+            {
+              "label": "Gama de GPU",
+              "detail": "Compara la gama gráfica indicada en lugar de comparar series de números."
+            },
+            {
+              "label": "SSD",
+              "detail": "Ten en cuenta tanto el espacio necesario como el tipo de unidad antes de instalar."
+            },
+            {
+              "label": "Deck",
+              "detail": "Comprueba la insignia de compatibilidad con Steam Deck junto con los informes de la comunidad."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Códigos de DreadmoorWiki",
+          "description": "Los códigos de DreadmoorWiki siguen los códigos de canje oficiales, las recompensas promocionales y los sorteos de los desarrolladores en Steam y los canales de la comunidad.",
+          "href": "/community/dreadmoor-discord",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Sin códigos",
+              "detail": "Todavía no se ha publicado ningún código de canje oficial de Dreadmoor."
+            },
+            {
+              "label": "Vigilar",
+              "detail": "DreadmoorWiki vigila los canales oficiales de Steam y de la comunidad en busca de sorteos."
+            },
+            {
+              "label": "Canjear",
+              "detail": "Cuando lleguen códigos, canjéalos mediante el flujo del juego o de la tienda."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes de DreadmoorWiki",
+      "description": "Respuestas rápidas sobre DreadmoorWiki y el bucle de supervivencia de Dreadmoor.",
+      "items": [
+        {
+          "question": "¿Qué es DreadmoorWiki?",
+          "answer": "DreadmoorWiki es un centro de guías creado por jugadores para Dreadmoor, que cubre rutas para principiantes, pesca, fabricación, mejoras de barco, criaturas, seguimiento del lanzamiento y detalles de plataformas."
+        },
+        {
+          "question": "¿Cómo ayuda DreadmoorWiki a los nuevos jugadores?",
+          "answer": "DreadmoorWiki comienza con una guía para principiantes paso a paso y luego conecta la pesca, la fabricación y la supervivencia para que tus primeras horas construyan un anclaje seguro y una reserva fiable de recursos."
+        },
+        {
+          "question": "¿Qué guías de DreadmoorWiki debería leer primero?",
+          "answer": "Lee primero la guía para principiantes de DreadmoorWiki, después las secciones de pesca y fabricación, y consulta la página de lanzamiento para detalles de plataformas y demo."
+        },
+        {
+          "question": "¿DreadmoorWiki cubre las mejoras de barco?",
+          "answer": "Sí. El módulo de barco de DreadmoorWiki sitúa la capacidad de combustible y el blindaje del casco por encima de la velocidad pura, porque el alcance y la supervivencia sostienen cada expedición larga."
+        },
+        {
+          "question": "¿Dónde sigue DreadmoorWiki los códigos y las novedades?",
+          "answer": "Los módulos de códigos y lanzamiento de DreadmoorWiki siguen los canales oficiales de Steam y de la comunidad para códigos de canje, sorteos y noticias de parches."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para sobrevivir a Dreadmoor?",
+      "description": "Desde tu primera salida de pesca hasta las expediciones con el barco totalmente mejorado, nuestro wiki comunitario cubre cada sistema con guías gratuitas y actualizadas.",
+      "primary": "Lee la guía para principiantes",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías para principiantes de Dreadmoor",
+    "overviewDescription": "Guías paso a paso de Dreadmoor que cubren el bucle de supervivencia inicial, la pesca, el guardado, los walkthroughs y los consejos que mantienen vivos a los nuevos jugadores."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de juego de Dreadmoor",
+    "overviewDescription": "Cómo se juega realmente a Dreadmoor: pesca, supervivencia, barcos, monstruos y exploración del mapa, sistema por sistema."
+  },
+  "release": {
+    "overviewTitle": "Lanzamiento y noticias de Dreadmoor",
+    "overviewDescription": "Detalles del lanzamiento de Dreadmoor, acceso anticipado, demo, tráiler y noticias reunidos en un solo lugar."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas de Dreadmoor",
+    "overviewDescription": "Dónde funciona Dreadmoor: detalles de Steam, PS5, Xbox, Switch y Steam Deck, además de notas de compra y compatibilidad."
+  },
+  "multiplayer": {
+    "overviewTitle": "Multijugador de Dreadmoor",
+    "overviewDescription": "Multijugador, cooperativo y crossplay de Dreadmoor explicados para que planifiques una travesía que sobreviva todo el escuadrón."
+  },
+  "comparison": {
+    "overviewTitle": "Comparativas de Dreadmoor",
+    "overviewDescription": "Dreadmoor comparado con Dredge y juegos similares, con comparaciones directas de tono, bucle de juego y progresión."
+  },
+  "community": {
+    "overviewTitle": "Comunidad de Dreadmoor",
+    "overviewDescription": "Los centros de Reddit y Discord de Dreadmoor, además de los espacios donde los jugadores comparten rutas, consejos y novedades de parches."
+  },
+  "reviews": {
+    "overviewTitle": "Reseñas de Dreadmoor",
+    "overviewDescription": "Reseñas e impresiones de juego de Dreadmoor sobre atmósfera, dificultad, profundidad de contenido y rendimiento."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación del wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnSteam": "Jugar en Steam",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Contenido oficial",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "DreadmoorWiki Wiki",
+    "about": "DreadmoorWiki Wiki es un centro de guías independiente creado por fans que cubre walkthroughs para principiantes, sistemas de pesca y fabricación, encuentros con criaturas, mejoras de barco y conocimientos esenciales del juego para los jugadores de Dreadmoor.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 DreadmoorWiki Wiki. Sin afiliación con los desarrolladores de Dreadmoor ni con Valve.",
+    "description": "Aventura de supervivencia de fantasía oscura en Steam. Pesca, fabrica, saquea y mejora tu barco.",
+    "playGame": "Jugar a Dreadmoor en Steam",
+    "officialDiscord": "Centro de la comunidad de Steam",
+    "officialYoutube": "Tráiler oficial",
+    "vvBuilder": "Planificador de equipamiento de Dreadmoor",
+    "beginnerGuide": "Guía para principiantes",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "mechanicsGuides": "Mecánicas de juego",
+    "multiplayerGuides": "Multijugador",
+    "communityGuides": "Comunidad"
+  }
+}
